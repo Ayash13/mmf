@@ -1,0 +1,2118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <link rel="stylesheet" href="css/tailwind.css%3Fid=8717eab0bfebead52d59ecfa77e2f99c.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/xpm2von.css" />
+    <link rel="icon" href="https://sfoutsidelands.com/assets/favicon.ico" />
+
+    <!-- /snippets/_seo.antlers.html -->
+
+<title>
+    
+    Neighborhoods
+    |
+    
+    Outside Lands
+</title>
+
+
+
+    <meta name="description" content="
+    
+        Outside Lands is a 3-Day Festival celebrating music, food, wine, beer, art, cannabis, and everything we love about the Bay Area.
+    
+
+">
+
+
+
+
+    
+
+
+
+
+    
+
+
+
+
+    
+        <link rel="canonical" href="https://staging.sfoutsidelands.com/neighborhood">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta property="og:site_name" content="Outside Lands">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+
+    <meta property="og:title" content="Neighborhoods">
+
+
+    <meta property="og:description" content="
+    
+        Outside Lands is a 3-Day Festival celebrating music, food, wine, beer, art, cannabis, and everything we love about the Bay Area.
+    
+
+">
+
+
+
+
+
+
+
+
+    
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-1158508-5"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            window.dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
+
+        gtag("config", "UA-1158508-5");
+    </script>
+</head>
+
+<body class="bg-themeDarkBrown" id="#top">
+    
+        
+        
+    
+
+    <div
+    class="hidden md:flex flex-row justify-end items-center bg-themeDarkBrown min-h-[51px] md:px-[70px]"
+>
+    <div class="flex flex-row items-center">
+        
+        <a
+            class="text-themeCream navigationItem md:mr-[30px] md:last:mr-0 lg:mr-10 lg:last:mr-0"
+            href="https://outsidelands.shop.musictoday.com/"
+            target="_blank"
+            >Merch</a
+        >
+        
+        <a
+            class="text-themeCream navigationItem md:mr-[30px] md:last:mr-0 lg:mr-10 lg:last:mr-0"
+            href="info.html"
+            >Info</a
+        >
+        
+        <a
+            class="text-themeCream navigationItem md:mr-[30px] md:last:mr-0 lg:mr-10 lg:last:mr-0"
+            href="news.html"
+            >News</a
+        >
+        
+        <a
+            class="text-themeCream navigationItem md:mr-[30px] md:last:mr-0 lg:mr-10 lg:last:mr-0"
+            href="get-involved.html"
+            >Get Involved</a
+        >
+        
+    </div>
+</div>
+ <div x-data="{ mobileNavOpen: false }" class="z-[100]">
+    <div id="navigation"
+        class="flex flex-row justify-between items-center w-full bg-white h-[60px] px-5 md:h-[96px] md:px-[58px] lg:px-[65px]">
+        <a href="index.html"><img alt="Outsidelands Logo" src="assets/static/outsidelandsLogo.svg"
+                class="h-[20px] md:h-[23px] lg:h-[37px]" /></a>
+
+        
+        <div class="hidden md:flex md:flex-row md:items-center">
+              
+            <a class="text-themeBrown navigationItem md:mr-[30px] md:last:mr-0 lg:mr-10 lg:last:mr-0"
+                href="lineup.html">Lineup</a>
+                
+            <a class="text-themeBrown navigationItem md:mr-[30px] md:last:mr-0 lg:mr-10 lg:last:mr-0"
+                href="schedule.html">Schedule</a>
+                
+            <a class="text-themeBrown navigationItem md:mr-[30px] md:last:mr-0 lg:mr-10 lg:last:mr-0"
+                href="experiences.html">Experiences</a>
+              
+        </div>
+        <div class="md:hidden">
+            <img @click="mobileNavOpen = true" x-show="mobileNavOpen == false" src="assets/hamburger.svg"
+                class="h-[30px]" />
+            <img @click="mobileNavOpen = false" x-show="mobileNavOpen == true" src="assets/x.svg" class="h-[30px]" />
+        </div>
+
+        
+    </div>
+
+    <div x-show="mobileNavOpen == true"
+        class="z-[-100] absolute top-0 bg-white mt-[60px] w-full flex flex-col items-center text-center py-[33px]"
+        :class="{ 'zHigh': mobileNavOpen }">
+         
+        <a @click="mobileNavOpen = false" class="text-themeBrown navigationItem text-center pb-[30px]"
+            href="lineup.html">Lineup</a>
+          
+        <a @click="mobileNavOpen = false" class="text-themeBrown navigationItem text-center pb-[30px]"
+            href="schedule.html">Schedule</a>
+          
+        <a @click="mobileNavOpen = false" class="text-themeBrown navigationItem text-center pb-[30px]"
+            href="experiences.html">Experiences</a>
+         
+
+        <div class="mt-[40px] flex flex-col items-center">
+            
+            <a @click="mobileNavOpen = false" class="text-themeBrown navigationItem text-center pb-[30px]"
+                href="https://outsidelands.shop.musictoday.com/">Merch</a>
+            <a @click="mobileNavOpen = false" class="text-themeBrown navigationItem text-center pb-[30px]"
+                href="info.html">Info</a>
+            <a @click="mobileNavOpen = false" class="text-themeBrown navigationItem text-center pb-[30px]"
+                href="news.html">News</a>
+            <a @click="mobileNavOpen = false" class="text-themeBrown navigationItem text-center pb-[30px]"
+                href="get-involved.html">Get Involved</a>
+        </div>
+    </div>
+</div>
+    <div class=""><!-- Global site tag (gtag.js) - Google Ads -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-775108436"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "AW-775108436");
+</script>
+
+<script> !function (f, b, e, v, n, t, s) { if (f.fbq) return; n = f.fbq = function () { n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments) }; if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0'; n.queue = []; t = b.createElement(e); t.async = !0; t.src = v; s = b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s) }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js'); fbq('init', '436353953396572'); fbq('track', 'PageView'); </script>
+
+<script>
+    !(function (w, d, t) {
+        w.TiktokAnalyticsObject = t;
+        var ttq = (w[t] = w[t] || []);
+        (ttq.methods = [
+            "page",
+            "track",
+            "identify",
+            "instances",
+            "debug",
+            "on",
+            "off",
+            "once",
+            "ready",
+            "alias",
+            "group",
+            "enableCookie",
+            "disableCookie",
+        ]),
+            (ttq.setAndDefer = function (t, e) {
+                t[e] = function () {
+                    t.push(
+                        [e].concat(Array.prototype.slice.call(arguments, 0))
+                    );
+                };
+            });
+        for (var i = 0; i < ttq.methods.length; i++)
+            ttq.setAndDefer(ttq, ttq.methods[i]);
+        (ttq.instance = function (t) {
+            for (var e = ttq._i[t] || [], n = 0; n < ttq.methods.length; n++)
+                ttq.setAndDefer(e, ttq.methods[n]);
+            return e;
+        }),
+            (ttq.load = function (e, n) {
+                var i = "https://analytics.tiktok.com/i18n/pixel/events.js";
+                (ttq._i = ttq._i || {}),
+                    (ttq._i[e] = []),
+                    (ttq._i[e]._u = i),
+                    (ttq._t = ttq._t || {}),
+                    (ttq._t[e] = +new Date()),
+                    (ttq._o = ttq._o || {}),
+                    (ttq._o[e] = n || {});
+                n = document.createElement("script");
+                (n.type = "text/javascript"),
+                    (n.async = !0),
+                    (n.src = i + "?sdkid=" + e + "&lib=" + t);
+                e = document.getElementsByTagName("script")[0];
+                e.parentNode.insertBefore(n, e);
+            });
+
+        ttq.load("C9BK03JC77U6S6FSA9NG");
+        ttq.page();
+    })(window, document, "ttq");
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<div class="w-full"><div class="w-full px-7 py-7 bg-themeBlue md:py-12">
+    <div class="max-w-[1230px] mx-auto">
+        
+        
+        
+
+        <div class="flex flex-col pt-3 md:pt-5 md:flex-row md:items-center">
+            
+            <h1 class="textBorder text-themeCream">Neighborhoods</h1>
+        </div>
+    </div>
+</div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="w-full"><div class="bg-themeYellow px-7 pt-5 pb-6 md:pt-32 md:pb-32">
+    <div class="relative max-w-[1180px] m-auto flex flex-col-reverse lg:flex-row lg:justify-between lg:items-center">
+
+
+        
+        <div class="pt-5 w-full lg:max-w-[450px] lg:mr-10 lg:pt-0">
+    <h3 class="text-themeOrange textBorder pb-6 text-[22px] lg:text-[38px]">
+        RICHMOND DISTRICT
+    </h3>
+
+    <div class="text-themeBrown">
+        
+        
+        <div
+            class="bard-content w-full max-w-none prose prose-p:text-themeBrown prose-strong:text-themeBrown prose-a:text-themeBrown prose-p:text-[16px] prose-p:tabletRegular">
+            
+            
+            <p>A favorite destination for festival attendees heading into the park, the top of Clement Street in the Inner Richmond neighborhood is known for its delectable cheap eats from around the world and one-of-a-kind locally owned boutiques. Stay warm with a Pendleton blanket and cardigan from Seedstore; pop by Park Life for a hip designer tee; or stroll over to Foggy Notion for eco body products to protect your face from the elements. And you don&#039;t want to miss Green Apple, which just happens to be one of the best independent book and magazine stores on the West Coast. Make sure to come back on Sundays for the new farmers market, offering fresh regional produce from 8am to 2pm. Come visit the Seedstore/Park Life Booth at the Festival to find out more about the neighborhood!</p>
+            
+            
+            
+        </div>
+        
+    </div>
+
+    
+</div>
+        
+
+        
+        <div class="relative">
+             <img src="img/containers/assets/Richmond.image.jpeg/e41b717ea6f4899108044f1d1c7396d3.jpeg" alt="" class="w-full lg:max-w-[530px]" /> 
+        </div>
+        
+    </div>
+</div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="w-full"><div class="bg-themeCream pt-10 px-7 pb-4 md:pt-24 ">
+    <div><div class="w-full">
+    <div class="relative max-w-[960px] mx-auto">
+        
+        <img src="assets/experience_icons/trolly-2.svg" alt="" class="hidden lg:block absolute w-[200px] top-[-50px] left-[-250px]" />
+          
+        <h2 class="text-themeOrange textBorder w-full text-center">
+            RICHMOND DISTRICT MERCHANT HIGHLIGHTS
+        </h2>
+         
+
+        <div class="pt-14">
+
+            
+            
+            <div class="pb-20 grid grid-cols-1 md:gap-x-5 md:grid-cols-3 md:pb-30">
+                
+                <a href="https://www.greenapplebooks.com/curbside-pick" target="_blank" class="mb-7 md:mb-10">
+    <div class="group">
+        <div class="flex flex-row items-center pb-[3px]">
+            <h4 class="text-themeBlue mr-1 group-hover:text-themeRed">
+                Green Apple Books
+            </h4>
+            <img
+                src="assets/static/listItemArrowHover.png"
+                class="hidden group-hover:block w-[15px] h-[15px]"
+                alt=""
+            />
+            <img
+                src="assets/static/listItemArrow.png"
+                class="block group-hover:hidden w-[15px] h-[15px]"
+                alt=""
+            />
+        </div>
+        
+        <p class="tabletRegular text-themeBlue group-hover:text-themeRed">
+            Founded in 1967, Green Apple is one of SF's oldest independent booksellers and is packed full of treasures. From vinyl records, to graphic novels to the newest fiction, their comprehensive inventory brings travelers in from around the world.
+        </p>
+        
+    </div>
+</a>
+
+                
+                <a href="https://www.parklifestore.com/" target="_blank" class="mb-7 md:mb-10">
+    <div class="group">
+        <div class="flex flex-row items-center pb-[3px]">
+            <h4 class="text-themeBlue mr-1 group-hover:text-themeRed">
+                Park Life
+            </h4>
+            <img
+                src="assets/static/listItemArrowHover.png"
+                class="hidden group-hover:block w-[15px] h-[15px]"
+                alt=""
+            />
+            <img
+                src="assets/static/listItemArrow.png"
+                class="block group-hover:hidden w-[15px] h-[15px]"
+                alt=""
+            />
+        </div>
+        
+        <p class="tabletRegular text-themeBlue group-hover:text-themeRed">
+            Park Life features art and design products culled from all over the world. They feature hard to find, limited edition, and unique items that include; books (art, type, design, photography, etc.), modern design objects, prints, paper goods, tee-shirts, home-wares, jewelry, artist multiples, original art and more.
+        </p>
+        
+    </div>
+</a>
+
+                
+                <a href="https://healthyspiritssf.com/" target="_blank" class="mb-7 md:mb-10">
+    <div class="group">
+        <div class="flex flex-row items-center pb-[3px]">
+            <h4 class="text-themeBlue mr-1 group-hover:text-themeRed">
+                Healthy Spirits
+            </h4>
+            <img
+                src="assets/static/listItemArrowHover.png"
+                class="hidden group-hover:block w-[15px] h-[15px]"
+                alt=""
+            />
+            <img
+                src="assets/static/listItemArrow.png"
+                class="block group-hover:hidden w-[15px] h-[15px]"
+                alt=""
+            />
+        </div>
+        
+        <p class="tabletRegular text-themeBlue group-hover:text-themeRed">
+            Beer, bourbon, and hummus surround you at Healthy Spirits, one of the newest additions to our neighborhood. Not only do they carry one of the most extensive selections of spirits in the city, the staff goes above and beyond with stellar picks and personalized recommendations.
+        </p>
+        
+    </div>
+</a>
+
+                
+                <a href="https://www.foggy-notion.com/" target="_blank" class="mb-7 md:mb-10">
+    <div class="group">
+        <div class="flex flex-row items-center pb-[3px]">
+            <h4 class="text-themeBlue mr-1 group-hover:text-themeRed">
+                Foggy Notion
+            </h4>
+            <img
+                src="assets/static/listItemArrowHover.png"
+                class="hidden group-hover:block w-[15px] h-[15px]"
+                alt=""
+            />
+            <img
+                src="assets/static/listItemArrow.png"
+                class="block group-hover:hidden w-[15px] h-[15px]"
+                alt=""
+            />
+        </div>
+        
+        <p class="tabletRegular text-themeBlue group-hover:text-themeRed">
+            The name of the store, Foggy Notion, refers to Alissa’s inspirations of music (Velvet Underground), design (sewing notions), and her favorite San Francisco weather phenomenon. Foggy Notion carries a unique mix of handmade and vintage goods that can't be missed.
+        </p>
+        
+    </div>
+</a>
+
+                
+                <a href="https://www.balboavillagesf.org/" target="_blank" class="mb-7 md:mb-10">
+    <div class="group">
+        <div class="flex flex-row items-center pb-[3px]">
+            <h4 class="text-themeBlue mr-1 group-hover:text-themeRed">
+                Balboa Street Merchants
+            </h4>
+            <img
+                src="assets/static/listItemArrowHover.png"
+                class="hidden group-hover:block w-[15px] h-[15px]"
+                alt=""
+            />
+            <img
+                src="assets/static/listItemArrow.png"
+                class="block group-hover:hidden w-[15px] h-[15px]"
+                alt=""
+            />
+        </div>
+        
+        <p class="tabletRegular text-themeBlue group-hover:text-themeRed">
+            The main street of our neighborhood Balboa Street shopping corridor is only about 8 blocks long but we have everything you want in your walkable quint neighborhood: 2 award-winning bakeries, 7 popular restaurants, a fantastic yoga school you can drop-in, 2 cafés, an independent movie theater, a flower shop and a market.
+        </p>
+        
+    </div>
+</a>
+
+                
+                <a href="https://www.clementstreetsf.com/" target="_blank" class="mb-7 md:mb-10">
+    <div class="group">
+        <div class="flex flex-row items-center pb-[3px]">
+            <h4 class="text-themeBlue mr-1 group-hover:text-themeRed">
+                Clement St. Merchants
+            </h4>
+            <img
+                src="assets/static/listItemArrowHover.png"
+                class="hidden group-hover:block w-[15px] h-[15px]"
+                alt=""
+            />
+            <img
+                src="assets/static/listItemArrow.png"
+                class="block group-hover:hidden w-[15px] h-[15px]"
+                alt=""
+            />
+        </div>
+        
+        <p class="tabletRegular text-themeBlue group-hover:text-themeRed">
+            Located just north of Golden Gate Park and south of the Presidio, the Inner Richmond is surrounded by the most beautiful natural greenscapes found in San Francisco. Clement Street is the perfect spot to grab a bite and lively stroll to experience a day in the life of a local San Franciscan.
+        </p>
+        
+    </div>
+</a>
+
+                
+            </div>
+            
+            
+        </div>
+
+        
+        <img src="assets/experience_icons/bike-2.svg" alt=""
+            class="hidden lg:block absolute w-[200px] h-[200px] bottom-[-15px] right-[-250px]" />
+        
+    </div>
+</div></div>
+</div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="w-full"><div class="bg-themeCream pt-10 px-7 pb-4 md:pt-24 ">
+    <div><div class="w-full">
+    <div class="relative max-w-[960px] mx-auto">
+        
+        <img src="assets/experience_icons/Tree-2.svg" alt="" class="hidden lg:block absolute w-[200px] top-[-50px] left-[-250px]" />
+          
+        <h2 class="text-themeOrange textBorder w-full text-center">
+            RICHMOND DISTRICT GOOD EATS
+        </h2>
+         
+
+        <div class="pt-14">
+
+            
+            
+            <div class="pb-20 grid grid-cols-1 md:gap-x-5 md:grid-cols-3 md:pb-30">
+                
+                <a href="https://www.burmasuperstar.com/" target="_blank" class="mb-7 md:mb-10">
+    <div class="group">
+        <div class="flex flex-row items-center pb-[3px]">
+            <h4 class="text-themeBlue mr-1 group-hover:text-themeRed">
+                Burma Superstar
+            </h4>
+            <img
+                src="assets/static/listItemArrowHover.png"
+                class="hidden group-hover:block w-[15px] h-[15px]"
+                alt=""
+            />
+            <img
+                src="assets/static/listItemArrow.png"
+                class="block group-hover:hidden w-[15px] h-[15px]"
+                alt=""
+            />
+        </div>
+        
+        <p class="tabletRegular text-themeBlue group-hover:text-themeRed">
+            It's on every foodies bucket list and well worth the wait. The tea leaf salad and samusa soup are perennial favorites!
+        </p>
+        
+    </div>
+</a>
+
+                
+                <a href="https://www.eatsrestaurantsf.com/" target="_blank" class="mb-7 md:mb-10">
+    <div class="group">
+        <div class="flex flex-row items-center pb-[3px]">
+            <h4 class="text-themeBlue mr-1 group-hover:text-themeRed">
+                EATS
+            </h4>
+            <img
+                src="assets/static/listItemArrowHover.png"
+                class="hidden group-hover:block w-[15px] h-[15px]"
+                alt=""
+            />
+            <img
+                src="assets/static/listItemArrow.png"
+                class="block group-hover:hidden w-[15px] h-[15px]"
+                alt=""
+            />
+        </div>
+        
+        <p class="tabletRegular text-themeBlue group-hover:text-themeRed">
+            Cozy American cafe serving heart classics for break, lunch & weekend brunch with mimosas.
+        </p>
+        
+    </div>
+</a>
+
+                
+                <a href="https://bluedanube.square.site/" target="_blank" class="mb-7 md:mb-10">
+    <div class="group">
+        <div class="flex flex-row items-center pb-[3px]">
+            <h4 class="text-themeBlue mr-1 group-hover:text-themeRed">
+                Blue Danube
+            </h4>
+            <img
+                src="assets/static/listItemArrowHover.png"
+                class="hidden group-hover:block w-[15px] h-[15px]"
+                alt=""
+            />
+            <img
+                src="assets/static/listItemArrow.png"
+                class="block group-hover:hidden w-[15px] h-[15px]"
+                alt=""
+            />
+        </div>
+        
+        <p class="tabletRegular text-themeBlue group-hover:text-themeRed">
+            The best place to grab a salad on the street. Blue Danube has great indoor/outdoor seating. Take a seat and prepare for some of the best people watching in the hood.
+        </p>
+        
+    </div>
+</a>
+
+                
+                <a href="https://www.bstarbar.com/" target="_blank" class="mb-7 md:mb-10">
+    <div class="group">
+        <div class="flex flex-row items-center pb-[3px]">
+            <h4 class="text-themeBlue mr-1 group-hover:text-themeRed">
+                B Star
+            </h4>
+            <img
+                src="assets/static/listItemArrowHover.png"
+                class="hidden group-hover:block w-[15px] h-[15px]"
+                alt=""
+            />
+            <img
+                src="assets/static/listItemArrow.png"
+                class="block group-hover:hidden w-[15px] h-[15px]"
+                alt=""
+            />
+        </div>
+        
+        <p class="tabletRegular text-themeBlue group-hover:text-themeRed">
+            Fusion at its best. A delicious place for pork belly tacos, taro chips and pumpkin pork stew.
+        </p>
+        
+    </div>
+</a>
+
+                
+                <a href="https://www.itsjane.com/location/toy-boat-by-jane/" target="_blank" class="mb-7 md:mb-10">
+    <div class="group">
+        <div class="flex flex-row items-center pb-[3px]">
+            <h4 class="text-themeBlue mr-1 group-hover:text-themeRed">
+                Toy Boat Dessert
+            </h4>
+            <img
+                src="assets/static/listItemArrowHover.png"
+                class="hidden group-hover:block w-[15px] h-[15px]"
+                alt=""
+            />
+            <img
+                src="assets/static/listItemArrow.png"
+                class="block group-hover:hidden w-[15px] h-[15px]"
+                alt=""
+            />
+        </div>
+        
+        <p class="tabletRegular text-themeBlue group-hover:text-themeRed">
+            The Ice cream, sandwiches, coffee, and vintage toys make Toy Boat is an institution in the city. Stop in and grab a cone.
+        </p>
+        
+    </div>
+</a>
+
+                
+                <a href="https://www.yelp.com/biz/good-luck-dim-sum-san-francisco" target="_blank" class="mb-7 md:mb-10">
+    <div class="group">
+        <div class="flex flex-row items-center pb-[3px]">
+            <h4 class="text-themeBlue mr-1 group-hover:text-themeRed">
+                Good Luck Dim Sum
+            </h4>
+            <img
+                src="assets/static/listItemArrowHover.png"
+                class="hidden group-hover:block w-[15px] h-[15px]"
+                alt=""
+            />
+            <img
+                src="assets/static/listItemArrow.png"
+                class="block group-hover:hidden w-[15px] h-[15px]"
+                alt=""
+            />
+        </div>
+        
+        <p class="tabletRegular text-themeBlue group-hover:text-themeRed">
+            Cheap and tasty dim sum to satisfy that craving.
+        </p>
+        
+    </div>
+</a>
+
+                
+            </div>
+            
+            
+        </div>
+
+        
+    </div>
+</div></div>
+</div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="w-full"><div class="bg-themeCream pt-10 px-7 pb-4 md:pt-24 ">
+    <div><div class="w-full">
+    <div class="relative max-w-[960px] mx-auto">
+          
+        <h3 class="text-themeGreen textBorder w-full text-center">
+            Additional Information
+        </h3>
+         
+
+        <div class="pt-14">
+
+            
+            
+            <div class="pb-20 grid grid-cols-1 md:gap-x-5 md:grid-cols-3 md:pb-30">
+                
+                <a href="https://www.outsidelands.org/richmond.php" target="_blank" class="mb-7 md:mb-10">
+    <div class="group">
+        <div class="flex flex-row items-center pb-[3px]">
+            <h4 class="text-themeBlue mr-1 group-hover:text-themeRed">
+                History of the Richmond District
+            </h4>
+            <img
+                src="assets/static/listItemArrowHover.png"
+                class="hidden group-hover:block w-[15px] h-[15px]"
+                alt=""
+            />
+            <img
+                src="assets/static/listItemArrow.png"
+                class="block group-hover:hidden w-[15px] h-[15px]"
+                alt=""
+            />
+        </div>
+        
+    </div>
+</a>
+
+                
+                <a href="https://www.sfchronicle.com/projects/2022/richmond-sf-best-food-day-ever/" target="_blank" class="mb-7 md:mb-10">
+    <div class="group">
+        <div class="flex flex-row items-center pb-[3px]">
+            <h4 class="text-themeBlue mr-1 group-hover:text-themeRed">
+                Plan the Best Day Ever in the Richmond
+            </h4>
+            <img
+                src="assets/static/listItemArrowHover.png"
+                class="hidden group-hover:block w-[15px] h-[15px]"
+                alt=""
+            />
+            <img
+                src="assets/static/listItemArrow.png"
+                class="block group-hover:hidden w-[15px] h-[15px]"
+                alt=""
+            />
+        </div>
+        
+    </div>
+</a>
+
+                
+            </div>
+            
+            
+        </div>
+
+        
+    </div>
+</div></div>
+</div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="w-full"><div class="bg-themeYellow px-7 pt-5 pb-6 md:pt-32 md:pb-32">
+    <div class="relative max-w-[1180px] m-auto flex flex-col-reverse lg:flex-row lg:justify-between lg:items-center">
+
+
+        
+        <div class="pt-5 w-full lg:max-w-[450px] lg:mr-10 lg:pt-0">
+    <h3 class="text-themeOrange textBorder pb-6 text-[22px] lg:text-[38px]">
+        SUNSET
+    </h3>
+
+    <div class="text-themeBrown">
+        
+        
+        <div
+            class="bard-content w-full max-w-none prose prose-p:text-themeBrown prose-strong:text-themeBrown prose-a:text-themeBrown prose-p:text-[16px] prose-p:tabletRegular">
+            
+            
+            <p>San Francisco’s southwest corner is a hidden gem. Cradled in the fog, with sweeping views of the Pacific Ocean, the Outer Sunset has plenty to explore before and after the festival! Stay warm with some Shanghai Soup Dumplings from Kingdom of Dumpling, grab some unique coffee blends at Henry’s House of Coffee or Java Beach Café, or bring home a San Francisco souvenir with a “The Avenues” t-shirt from the Hard Wear Store. Before the festival, grab a hearty Breakfast Sandwich at Devil’s Teeth Baking Company, and walk across the street to Establish, where you can find unique jewelry, home goods, and postcards. Once called the “Outside Lands,” the West side of San Francisco has many great things to offer!</p>
+            
+            
+            
+        </div>
+        
+    </div>
+
+    
+</div>
+        
+
+        
+        <div class="relative">
+             <img src="img/containers/assets/SUNSET.jpeg/d0f5e6529ee94518c02067dfd7466b2d.jpeg" alt="" class="w-full lg:max-w-[530px]" /> 
+        </div>
+        
+    </div>
+</div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="w-full"><div class="bg-themeCream pt-10 px-7 pb-4 md:pt-24 ">
+    <div><div class="w-full">
+    <div class="relative max-w-[960px] mx-auto">
+        
+        <img src="assets/experience_icons/flowerOrange.png" alt="" class="hidden lg:block absolute w-[200px] top-[-50px] left-[-250px]" />
+          
+        <h2 class="text-themeOrange textBorder w-full text-center">
+            SUNSET DISTRICT MERCHANT HIGHLIGHTS
+        </h2>
+         
+
+        <div class="pt-14">
+
+            
+            
+            <div class="pb-20 grid grid-cols-1 md:gap-x-5 md:grid-cols-3 md:pb-30">
+                
+                <a href="https://outerlandssf.com/" target="_blank" class="mb-7 md:mb-10">
+    <div class="group">
+        <div class="flex flex-row items-center pb-[3px]">
+            <h4 class="text-themeBlue mr-1 group-hover:text-themeRed">
+                Outer Lands
+            </h4>
+            <img
+                src="assets/static/listItemArrowHover.png"
+                class="hidden group-hover:block w-[15px] h-[15px]"
+                alt=""
+            />
+            <img
+                src="assets/static/listItemArrow.png"
+                class="block group-hover:hidden w-[15px] h-[15px]"
+                alt=""
+            />
+        </div>
+        
+        <p class="tabletRegular text-themeBlue group-hover:text-themeRed">
+            Outerlands is a gathering place for sea goers who seek warmth, shelter, food, and fellowship- a retreat from the saltwater chill, or a place to hang your hat after a long day's frolic in the sun. Visit to enjoy locally sourced, organic fare served in a cozy, handcrafted setting.
+        </p>
+        
+    </div>
+</a>
+
+                
+                <a href="http://www.establishsf.com/" target="_blank" class="mb-7 md:mb-10">
+    <div class="group">
+        <div class="flex flex-row items-center pb-[3px]">
+            <h4 class="text-themeBlue mr-1 group-hover:text-themeRed">
+                Establish
+            </h4>
+            <img
+                src="assets/static/listItemArrowHover.png"
+                class="hidden group-hover:block w-[15px] h-[15px]"
+                alt=""
+            />
+            <img
+                src="assets/static/listItemArrow.png"
+                class="block group-hover:hidden w-[15px] h-[15px]"
+                alt=""
+            />
+        </div>
+        
+        <p class="tabletRegular text-themeBlue group-hover:text-themeRed">
+            Keep's purpose is to integrate their style with the landscape of the developing neighborhood, while offering unique goods and services to the area. Their partners include interior designers, artists, woodworkers, jewelry makers, florists and photographers. The space is an energetic variety of creative processes - open to all who are searching for inspiration and collaboration, with a style that blends the influence of the beach, treasure seeking and travel culture and offering affordable, quality products that are sustainably made and support local crafts people.
+        </p>
+        
+    </div>
+</a>
+
+                
+                <a href="https://shop-generalstore.com/" target="_blank" class="mb-7 md:mb-10">
+    <div class="group">
+        <div class="flex flex-row items-center pb-[3px]">
+            <h4 class="text-themeBlue mr-1 group-hover:text-themeRed">
+                General Store
+            </h4>
+            <img
+                src="assets/static/listItemArrowHover.png"
+                class="hidden group-hover:block w-[15px] h-[15px]"
+                alt=""
+            />
+            <img
+                src="assets/static/listItemArrow.png"
+                class="block group-hover:hidden w-[15px] h-[15px]"
+                alt=""
+            />
+        </div>
+        
+        <p class="tabletRegular text-themeBlue group-hover:text-themeRed">
+            General Store is a collective design community originally founded by Serena Mitnik-Miller and Mason St. Peter. General Store features carefully curated items from both new and vintage sources. Local Artisans and Craftspeople contribute to the mix of furniture, clothing, tools, plants, household items, books, jewelry, cards and small treasures, a little bit of everything useful. Stop by for a visit!
+        </p>
+        
+    </div>
+</a>
+
+                
+                <a href="https://www.andytownsf.com/" target="_blank" class="mb-7 md:mb-10">
+    <div class="group">
+        <div class="flex flex-row items-center pb-[3px]">
+            <h4 class="text-themeBlue mr-1 group-hover:text-themeRed">
+                Andytown Coffee Roasters
+            </h4>
+            <img
+                src="assets/static/listItemArrowHover.png"
+                class="hidden group-hover:block w-[15px] h-[15px]"
+                alt=""
+            />
+            <img
+                src="assets/static/listItemArrow.png"
+                class="block group-hover:hidden w-[15px] h-[15px]"
+                alt=""
+            />
+        </div>
+        
+        <p class="tabletRegular text-themeBlue group-hover:text-themeRed">
+            Founders Michael McCrory and Lauren Crabbe aim to make their space a welcoming, functional, and extraordinary experience for the customer. In just over a year, Andytown has gained a loyal following and for good reason. Try their specialty coffee, griddle-baked Irish soda bread, or the Snowy Plover: a housemade espresso soda topped with whip cream.
+        </p>
+        
+    </div>
+</a>
+
+                
+                <a href="https://www.swellbicycles.com/" target="_blank" class="mb-7 md:mb-10">
+    <div class="group">
+        <div class="flex flex-row items-center pb-[3px]">
+            <h4 class="text-themeBlue mr-1 group-hover:text-themeRed">
+                Swell Bicycles
+            </h4>
+            <img
+                src="assets/static/listItemArrowHover.png"
+                class="hidden group-hover:block w-[15px] h-[15px]"
+                alt=""
+            />
+            <img
+                src="assets/static/listItemArrow.png"
+                class="block group-hover:hidden w-[15px] h-[15px]"
+                alt=""
+            />
+        </div>
+        
+        <p class="tabletRegular text-themeBlue group-hover:text-themeRed">
+            This neighborhood bike shop provides friendly and knowledgeable service for the bicycle community in the area. Whether you're looking into purchasing a beach cruiser or need servicing on a bike, Swell Bicycles will work hard to make sure your ride is the best it can be.
+        </p>
+        
+    </div>
+</a>
+
+                
+            </div>
+            
+            
+        </div>
+
+        
+        <img src="assets/experience_icons/high-five-2.svg" alt=""
+            class="hidden lg:block absolute w-[200px] h-[200px] bottom-[-15px] right-[-250px]" />
+        
+    </div>
+</div></div>
+</div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="w-full"><div class="bg-themeCream pt-10 px-7 pb-4 md:pt-24 ">
+    <div><div class="w-full">
+    <div class="relative max-w-[960px] mx-auto">
+        
+        <img src="assets/experience_icons/tree.svg" alt="" class="hidden lg:block absolute w-[200px] top-[-50px] left-[-250px]" />
+          
+        <h2 class="text-themeOrange textBorder w-full text-center">
+            SUNSET DISTRICT GOOD EATS
+        </h2>
+         
+
+        <div class="pt-14">
+
+            
+            
+            <div class="pb-20 grid grid-cols-1 md:gap-x-5 md:grid-cols-3 md:pb-30">
+                
+                <a href="https://www.pollyann.com" target="_blank" class="mb-7 md:mb-10">
+    <div class="group">
+        <div class="flex flex-row items-center pb-[3px]">
+            <h4 class="text-themeBlue mr-1 group-hover:text-themeRed">
+                Polly Ann Ice Cream
+            </h4>
+            <img
+                src="assets/static/listItemArrowHover.png"
+                class="hidden group-hover:block w-[15px] h-[15px]"
+                alt=""
+            />
+            <img
+                src="assets/static/listItemArrow.png"
+                class="block group-hover:hidden w-[15px] h-[15px]"
+                alt=""
+            />
+        </div>
+        
+        <p class="tabletRegular text-themeBlue group-hover:text-themeRed">
+            For over fifty years, Polly Ann Ice Cream has been delighting residents and visitors alike with their collection of over 500 flavors of ice cream, all made by Polly Ann staff. If you’re feeling adventurous, spin the big wheel and see what flavor you land on. Polly Ann offers unique flavors such as lychee, black sesame, and pink lemonade. You can also get all of the classic flavors, and many with a twist.
+        </p>
+        
+    </div>
+</a>
+
+                
+                <a href="https://henryshouseofcoffee.com/" target="_blank" class="mb-7 md:mb-10">
+    <div class="group">
+        <div class="flex flex-row items-center pb-[3px]">
+            <h4 class="text-themeBlue mr-1 group-hover:text-themeRed">
+                Henry's House of Coffee
+            </h4>
+            <img
+                src="assets/static/listItemArrowHover.png"
+                class="hidden group-hover:block w-[15px] h-[15px]"
+                alt=""
+            />
+            <img
+                src="assets/static/listItemArrow.png"
+                class="block group-hover:hidden w-[15px] h-[15px]"
+                alt=""
+            />
+        </div>
+        
+        <p class="tabletRegular text-themeBlue group-hover:text-themeRed">
+            Six days a week, Henry hand-roasts premium blends, some of them only available in rare locations. For 45 years, master coffee roaster Henry Kalebjian and his family have been roasting daily in their Noriega St. store. Customers come by regularly to watch Henry roast, and the store has a loyal following of customers that travel from throughout the Bay Area to the store. This hand-roasted coffee has been voted "Best of the Bay" by San Francisco Bay Guardian. The only way to describe the difference between the coffee we drink on a daily basis and hand-roasted coffee is to compare the quality of fast-food to a gourmet meal.
+        </p>
+        
+    </div>
+</a>
+
+                
+                <a href="https://www.sfholeinthewallpizza.com/" target="_blank" class="mb-7 md:mb-10">
+    <div class="group">
+        <div class="flex flex-row items-center pb-[3px]">
+            <h4 class="text-themeBlue mr-1 group-hover:text-themeRed">
+                Irving Pizza (aka “SF Hole In The Wall Pizza”)
+            </h4>
+            <img
+                src="assets/static/listItemArrowHover.png"
+                class="hidden group-hover:block w-[15px] h-[15px]"
+                alt=""
+            />
+            <img
+                src="assets/static/listItemArrow.png"
+                class="block group-hover:hidden w-[15px] h-[15px]"
+                alt=""
+            />
+        </div>
+        
+        <p class="tabletRegular text-themeBlue group-hover:text-themeRed">
+            Irving Pizza was born in NYC, but raised in San Francisco. Open into the wee hours of the morning, for your convenience, Irving Pizza offers not only pizza, but hot sandwiches, burgers, salads, desserts, and more. Recent specials include the "Irish Special" with chicken, ham, sweet corn, and bell peppers.
+        </p>
+        
+    </div>
+</a>
+
+                
+                <a href="http://ppqsf.com/" target="_blank" class="mb-7 md:mb-10">
+    <div class="group">
+        <div class="flex flex-row items-center pb-[3px]">
+            <h4 class="text-themeBlue mr-1 group-hover:text-themeRed">
+                PPQ
+            </h4>
+            <img
+                src="assets/static/listItemArrowHover.png"
+                class="hidden group-hover:block w-[15px] h-[15px]"
+                alt=""
+            />
+            <img
+                src="assets/static/listItemArrow.png"
+                class="block group-hover:hidden w-[15px] h-[15px]"
+                alt=""
+            />
+        </div>
+        
+        <p class="tabletRegular text-themeBlue group-hover:text-themeRed">
+            PPQ serves up fresh Vietnamese food including Five-Spice Chicken, Spring Rolls, and their delicious varieties of Phở noodle soup. Phở (pronounced “fuh”) is a Vietnamese noodle soup consisting of broth, noodles, herbs and meat. Phở at PPQ has a variety of delicious ingredients including sprouts, lemon, jalapeno, basil, onions, cilantro and your choice of egg noodles, vermicelli or round noodles. You can have chicken, beef or seafood or even vegetarian Phở at PPQ. Don’t forget about the iced Vietnamese coffee!
+        </p>
+        
+    </div>
+</a>
+
+                
+                <a href="http://www.javabeachcafe.com/" target="_blank" class="mb-7 md:mb-10">
+    <div class="group">
+        <div class="flex flex-row items-center pb-[3px]">
+            <h4 class="text-themeBlue mr-1 group-hover:text-themeRed">
+                Java Beach
+            </h4>
+            <img
+                src="assets/static/listItemArrowHover.png"
+                class="hidden group-hover:block w-[15px] h-[15px]"
+                alt=""
+            />
+            <img
+                src="assets/static/listItemArrow.png"
+                class="block group-hover:hidden w-[15px] h-[15px]"
+                alt=""
+            />
+        </div>
+        
+        <p class="tabletRegular text-themeBlue group-hover:text-themeRed">
+            Java Beach is an independent, mom ‘n pop shop co-owned by San Francisco husband and wife team, Patrick and Buffy Maguire. Ocean Beach is where they live, work and play. Their days are devoted to making Java Beach the best it can be. This process starts with the coffee, where they engage in meticulous standards of sourcing, cupping and roasting. They apply these high standards to every aspect at Java Beach. Their menu features an array of unique coffees, bagels, sandwiches, salads and fresh pastries.
+        </p>
+        
+    </div>
+</a>
+
+                
+                <a href="https://underdogstres.com/" target="_blank" class="mb-7 md:mb-10">
+    <div class="group">
+        <div class="flex flex-row items-center pb-[3px]">
+            <h4 class="text-themeBlue mr-1 group-hover:text-themeRed">
+                Taco Shop @ Underdogs
+            </h4>
+            <img
+                src="assets/static/listItemArrowHover.png"
+                class="hidden group-hover:block w-[15px] h-[15px]"
+                alt=""
+            />
+            <img
+                src="assets/static/listItemArrow.png"
+                class="block group-hover:hidden w-[15px] h-[15px]"
+                alt=""
+            />
+        </div>
+        
+        <p class="tabletRegular text-themeBlue group-hover:text-themeRed">
+            From the a taco done Nick’s Way to one of their special burritos, the kitchen prepares each item with careful attention. Meats are slow cooked and infused with flavor. Produce and fish are fresh as they are purchased each morning to ensure an unsurpassed quality. Even the margaritas are prepared fresh and for each customer using agave nectar. The result is a mouthwatering goodness that will leave you wanting to come back for more!
+        </p>
+        
+    </div>
+</a>
+
+                
+                <a href="https://www.pizzaplacesf.com/" target="_blank" class="mb-7 md:mb-10">
+    <div class="group">
+        <div class="flex flex-row items-center pb-[3px]">
+            <h4 class="text-themeBlue mr-1 group-hover:text-themeRed">
+                Pizza Place on Noriega
+            </h4>
+            <img
+                src="assets/static/listItemArrowHover.png"
+                class="hidden group-hover:block w-[15px] h-[15px]"
+                alt=""
+            />
+            <img
+                src="assets/static/listItemArrow.png"
+                class="block group-hover:hidden w-[15px] h-[15px]"
+                alt=""
+            />
+        </div>
+        
+        <p class="tabletRegular text-themeBlue group-hover:text-themeRed">
+            The chef/owners, who both live nearby, opened The Pizza Place on Noriega because they wanted to serve their community and make it a gathering place for all. Specials include “The Rocha” with kale, garlic, roasted potatoes, bacon, tomato sauce and cheese; and the “Meathead” with pepperoni, sausage, ham, salami, red onion, tomato sauce and cheese as well as many other delicious pizzas and appetizers. Pizza is also served on a “create your own” basis as well as by the slice.
+        </p>
+        
+    </div>
+</a>
+
+                
+                <a href="https://www.facebook.com/laplayataqueria/" target="_blank" class="mb-7 md:mb-10">
+    <div class="group">
+        <div class="flex flex-row items-center pb-[3px]">
+            <h4 class="text-themeBlue mr-1 group-hover:text-themeRed">
+                La Playa Taqueria
+            </h4>
+            <img
+                src="assets/static/listItemArrowHover.png"
+                class="hidden group-hover:block w-[15px] h-[15px]"
+                alt=""
+            />
+            <img
+                src="assets/static/listItemArrow.png"
+                class="block group-hover:hidden w-[15px] h-[15px]"
+                alt=""
+            />
+        </div>
+        
+        <p class="tabletRegular text-themeBlue group-hover:text-themeRed">
+            La Playa Taqueria serves fresh Mexican fare by the sea. You can’t go wrong with their fresh classics such as the Super Burrito with your choice of meat or the Fish Tacos; but they also have a Super Veggie Burrito, a Chille Relleno Burrito, and a Three Pepper Burrito with grilled chicken or steak with rice, beans, bell peppers, onions and fresh salsa.
+        </p>
+        
+    </div>
+</a>
+
+                
+                <a href="http://tazakisushisf.com/menu.html" target="_blank" class="mb-7 md:mb-10">
+    <div class="group">
+        <div class="flex flex-row items-center pb-[3px]">
+            <h4 class="text-themeBlue mr-1 group-hover:text-themeRed">
+                Tazaki Sushi
+            </h4>
+            <img
+                src="assets/static/listItemArrowHover.png"
+                class="hidden group-hover:block w-[15px] h-[15px]"
+                alt=""
+            />
+            <img
+                src="assets/static/listItemArrow.png"
+                class="block group-hover:hidden w-[15px] h-[15px]"
+                alt=""
+            />
+        </div>
+        
+        <p class="tabletRegular text-themeBlue group-hover:text-themeRed">
+            Located in the Outer Sunset, Tazaki Sushi serves a variety of Japanese fare. Their Sizzling Fish Specials are served on a sizzling hot plate and comes with your choice of Chilean Sea Bass, Ahi Steak, Butterfish, Swordfish, Salmon, Orange Roughy, Halibut, Ono, Scallop Steak, Monk Fish, Mahi Mahi or Tazaki Clams. Tazaki Sushi also carries classic Maki and Nigiri sushis as well as Udon, Cold Soba and Ramen.
+        </p>
+        
+    </div>
+</a>
+
+                
+                <a href="https://www.devilsteethbakingcompany.com/" target="_blank" class="mb-7 md:mb-10">
+    <div class="group">
+        <div class="flex flex-row items-center pb-[3px]">
+            <h4 class="text-themeBlue mr-1 group-hover:text-themeRed">
+                Devil's Teeth
+            </h4>
+            <img
+                src="assets/static/listItemArrowHover.png"
+                class="hidden group-hover:block w-[15px] h-[15px]"
+                alt=""
+            />
+            <img
+                src="assets/static/listItemArrow.png"
+                class="block group-hover:hidden w-[15px] h-[15px]"
+                alt=""
+            />
+        </div>
+        
+        <p class="tabletRegular text-themeBlue group-hover:text-themeRed">
+            Devil’s Teeth is open every day from 7am – 4pm, and serves Bicycle coffee, Scharffen Berger hot chocolate, breakfast, lunch and sweets and desserts. They are famous for their Breakfast Sandwich – two eggs scrambled with cheddar cheese, applewood smoked bacon, all on a homemade buttermilk biscuit. They have BLTs, chicken curry salad, lasagna, and a delicious cinnamon roll among many other sweet treats. Stop by on Sunday mornings for freshly made beignets. Enjoy all of these treats while sitting outside in their award-winning parklet!
+        </p>
+        
+    </div>
+</a>
+
+                
+                <a href="https://www.kingdomofdumpling.com/" target="_blank" class="mb-7 md:mb-10">
+    <div class="group">
+        <div class="flex flex-row items-center pb-[3px]">
+            <h4 class="text-themeBlue mr-1 group-hover:text-themeRed">
+                Kingdom of Dumpling
+            </h4>
+            <img
+                src="assets/static/listItemArrowHover.png"
+                class="hidden group-hover:block w-[15px] h-[15px]"
+                alt=""
+            />
+            <img
+                src="assets/static/listItemArrow.png"
+                class="block group-hover:hidden w-[15px] h-[15px]"
+                alt=""
+            />
+        </div>
+        
+        <p class="tabletRegular text-themeBlue group-hover:text-themeRed">
+            Chinese Dumpling (Jiaozi) is a traditional Chinese food and is one of the most widely loved foods in the world. Shanghai-style dumplings are served up hot and fresh at Kingdom of Dumpling. Enjoy their Pork Dumplings, Chicken and Corn Dumplings, or their famous Shanghai Soup Dumplings along with a crispy Onion Pancake.
+        </p>
+        
+    </div>
+</a>
+
+                
+                <a href="https://www.trouble.coffee/" target="_blank" class="mb-7 md:mb-10">
+    <div class="group">
+        <div class="flex flex-row items-center pb-[3px]">
+            <h4 class="text-themeBlue mr-1 group-hover:text-themeRed">
+                Trouble Coffee
+            </h4>
+            <img
+                src="assets/static/listItemArrowHover.png"
+                class="hidden group-hover:block w-[15px] h-[15px]"
+                alt=""
+            />
+            <img
+                src="assets/static/listItemArrow.png"
+                class="block group-hover:hidden w-[15px] h-[15px]"
+                alt=""
+            />
+        </div>
+        
+        <p class="tabletRegular text-themeBlue group-hover:text-themeRed">
+            Trouble Coffee's quirkiness is apparent in its signature offering, "Build Your Own Damn House", which includes a coffee, coconut, and toast. This small coffee shop is accompanied by an open area with a tree trunk serving as furniture, and it is here where the artisanal toast was born. Their thick slice of toast comes slathered in butter, cinnamon, and sugar.
+        </p>
+        
+    </div>
+</a>
+
+                
+                <a href="https://celiasbythebeach.com/index.html" target="_blank" class="mb-7 md:mb-10">
+    <div class="group">
+        <div class="flex flex-row items-center pb-[3px]">
+            <h4 class="text-themeBlue mr-1 group-hover:text-themeRed">
+                Celia's by the Beach
+            </h4>
+            <img
+                src="assets/static/listItemArrowHover.png"
+                class="hidden group-hover:block w-[15px] h-[15px]"
+                alt=""
+            />
+            <img
+                src="assets/static/listItemArrow.png"
+                class="block group-hover:hidden w-[15px] h-[15px]"
+                alt=""
+            />
+        </div>
+        
+        <p class="tabletRegular text-themeBlue group-hover:text-themeRed">
+            Serving Mexican comfort food and margaritas since 1960, Celia’s is a popular destination in the Outer Sunset. Celia’s uses fresh ingredients and family recipes to serve up classics like enchiladas, burritos and fajitas. They also offer “north of the border” options such as their Guacamole Chicken Burger and their Deluxe Burger along house specialties such as Pollo en Crema and Steak a la Mexicana. Of course, Celia’s by the Beach also offers surf and turf!
+        </p>
+        
+    </div>
+</a>
+
+                
+            </div>
+            
+            
+        </div>
+
+        
+        <img src="assets/experience_icons/flower.svg" alt=""
+            class="hidden lg:block absolute w-[200px] h-[200px] bottom-[-15px] right-[-250px]" />
+        
+    </div>
+</div></div>
+</div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="w-full"><div class="bg-themeCream pt-10 px-7 pb-4 md:pt-24 ">
+    <div><div class="w-full">
+    <div class="relative max-w-[960px] mx-auto">
+          
+        <h3 class="text-themeGreen textBorder w-full text-center">
+            Additional Information
+        </h3>
+         
+
+        <div class="pt-14">
+
+            
+            
+            <div class="pb-20 grid grid-cols-1 md:gap-x-5 md:grid-cols-3 md:pb-30">
+                
+                <a href="https://www.outsidelands.org/sunset.php" target="_blank" class="mb-7 md:mb-10">
+    <div class="group">
+        <div class="flex flex-row items-center pb-[3px]">
+            <h4 class="text-themeBlue mr-1 group-hover:text-themeRed">
+                Sunset District
+            </h4>
+            <img
+                src="assets/static/listItemArrowHover.png"
+                class="hidden group-hover:block w-[15px] h-[15px]"
+                alt=""
+            />
+            <img
+                src="assets/static/listItemArrow.png"
+                class="block group-hover:hidden w-[15px] h-[15px]"
+                alt=""
+            />
+        </div>
+        
+    </div>
+</a>
+
+                
+            </div>
+            
+            
+        </div>
+
+        
+    </div>
+</div></div>
+</div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+    <div class="w-full"><div class="bg-themeDarkBrown relative px-5 pt-[75px] pb-5 lg:px-[65px] lg:pt-[95px]">
+    <a href="neighborhood.html#top">
+        <div
+            class="flex z-[100] items-center justify-center absolute w-[66px] h-[66px] rounded-full bg-themeBrown border-2 border-cream top-[-33px] right-[20px] lg:right-[53px]">
+            <img class="w-[24px]" src="assets/static/footerButtonArrow.svg" alt="" />
+        </div>
+    </a>
+    <div class="flex flex-col md:flex-row md:justify-between md:items-center">
+        <img class="w-full md:w-[320px]" src="assets/outsidelandsTextLogo.svg" alt="" />
+        <div class="grid grid-cols-6 max-w-max pt-6 md:pt-0">
+            
+            <a rel="nofollow" href="https://www.tiktok.com/@sfoutsidelands" target="_blank" class="mr-[15px] md:mr-[19px]">
+                <img class="w-[40px] md:w-[50px]" src="assets/tikTok.svg" alt="tik tok" />
+            </a>
+            
+            <a rel="nofollow" href="https://www.facebook.com/SFOutsideLands/" target="_blank" class="mr-[15px] md:mr-[19px]">
+                <img class="w-[40px] md:w-[50px]" src="assets/facebook.svg" alt="facebook" />
+            </a>
+            
+            <a rel="nofollow" href="https://www.instagram.com/outsidelands/?hl=en" target="_blank" class="mr-[15px] md:mr-[19px]">
+                <img class="w-[40px] md:w-[50px]" src="assets/instagram.svg" alt="Instagram" />
+            </a>
+            
+            <a rel="nofollow" href="https://twitter.com/sfoutsidelands" target="_blank" class="mr-[15px] md:mr-[19px]">
+                <img class="w-[40px] md:w-[50px]" src="assets/twitter.svg" alt="twitter" />
+            </a>
+            
+            <a rel="nofollow" href="https://www.youtube.com/user/OutsideLands/videos?app=desktop&view=0&sort=dd&shelf_id=0" target="_blank" class="mr-[15px] md:mr-[19px]">
+                <img class="w-[40px] md:w-[50px]" src="assets/youtube.svg" alt="youtube" />
+            </a>
+            
+            <a rel="nofollow" href="https://www.twitch.tv/sfoutsidelands" target="_blank" class="mr-[15px] md:mr-[19px]">
+                <img class="w-[40px] md:w-[50px]" src="assets/twitch.svg" alt="twitch" />
+            </a>
+            
+        </div>
+    </div>
+
+    <div
+        class="grid grid-cols-2 py-[53px] md:pt-[46px] md:pb-[40px] lg:pt-[56px] max-w-max lg:pb-[38px] md:grid-cols-3 lg:grid-cols-4">
+         
+        <a rel="nofollow" target="" href="info.html"
+            class="text-themeCream text-[16px] leading-[145%] tabletBold mb-[23px] last:mb-0 mr-4 md:mr-10">Info</a>
+         
+        <a rel="nofollow" target="" href="news.html"
+            class="text-themeCream text-[16px] leading-[145%] tabletBold mb-[23px] last:mb-0 mr-4 md:mr-10">News</a>
+         
+        <a rel="nofollow" target="" href="contact.html"
+            class="text-themeCream text-[16px] leading-[145%] tabletBold mb-[23px] last:mb-0 mr-4 md:mr-10">Contact</a>
+         
+        <a rel="nofollow" target="" href="premium-experiences/premium-experiences.html"
+            class="text-themeCream text-[16px] leading-[145%] tabletBold mb-[23px] last:mb-0 mr-4 md:mr-10">Premium Experiences</a>
+         
+        <a rel="nofollow" target="" href="accessibility.html"
+            class="text-themeCream text-[16px] leading-[145%] tabletBold mb-[23px] last:mb-0 mr-4 md:mr-10">Accessibility</a>
+         
+        <a rel="nofollow" target="" href="lineup.html"
+            class="text-themeCream text-[16px] leading-[145%] tabletBold mb-[23px] last:mb-0 mr-4 md:mr-10">Lineup</a>
+         
+        <a rel="nofollow" target="_blank" href="https://outsidelands.shop.musictoday.com/"
+            class="text-themeCream text-[16px] leading-[145%] tabletBold mb-[23px] last:mb-0 max-w-max mr-4 md:mr-10">Merch</a>
+        
+         
+        <a rel="nofollow" target="" href="press.html"
+            class="text-themeCream text-[16px] leading-[145%] tabletBold mb-[23px] last:mb-0 mr-4 md:mr-10">Press</a>
+         
+        <a rel="nofollow" target="" href="311.html"
+            class="text-themeCream text-[16px] leading-[145%] tabletBold mb-[23px] last:mb-0 mr-4 md:mr-10">Neighborhood 311</a>
+         
+        <a rel="nofollow" target="" href="park-attractions.html"
+            class="text-themeCream text-[16px] leading-[145%] tabletBold mb-[23px] last:mb-0 mr-4 md:mr-10">Park Attractions</a>
+         
+        <a rel="nofollow" target="" href="partners.html"
+            class="text-themeCream text-[16px] leading-[145%] tabletBold mb-[23px] last:mb-0 mr-4 md:mr-10">Partners</a>
+         
+        <a rel="nofollow" target="" href="neighborhood.html"
+            class="text-themeCream text-[16px] leading-[145%] tabletBold mb-[23px] last:mb-0 mr-4 md:mr-10">Neighborhoods</a>
+         
+        <a rel="nofollow" target="" href="experiences.html"
+            class="text-themeCream text-[16px] leading-[145%] tabletBold mb-[23px] last:mb-0 mr-4 md:mr-10">Experiences</a>
+         
+        <a rel="nofollow" target="" href="schedule.html"
+            class="text-themeCream text-[16px] leading-[145%] tabletBold mb-[23px] last:mb-0 mr-4 md:mr-10">Schedule</a>
+        
+    </div>
+    <div class="w-full flex flex-col md:flex-row md:justify-between">
+        
+        <a rel="nofollow" href="terms.html"
+            class="underline text-themeCream text-[16px] leading-[145%] tabletRegular pb-[23px] last:mb-0">Terms & Conditions</a>
+        
+        <a rel="nofollow" href="privacy.html"
+            class="underline text-themeCream text-[16px] leading-[145%] tabletRegular pb-[23px] last:mb-0">Privacy Policy</a>
+        
+    </div>
+    <div class="border-t border-themeDarkYellow pt-[20px]">
+        <div class="flex flex-col-reverse md:flex-row md:justify-between md:items-center">
+            <div class="text-themeDarkYellow text-[12px] tabletBold pt-5 md:pt-0">
+                © 2022 Outside Lands. All rights reserved
+            </div>
+            <div class="flex flex-row items-center justify-between">
+                
+                <a href="https://apeconcerts.com/" target="_blank">
+                    <img alt="Another Planet" class="min-h-[16px] lg:min-h-[27px] md:min-w-[80px] lg:mx-5" src="assets/sponsor_logos/anotherPlanet.svg" />
+                </a>
+                
+                <a href="https://superf.ly/" target="_blank">
+                    <img alt="Superfly" class="min-h-[16px] lg:min-h-[27px] md:min-w-[80px] lg:mx-5" src="assets/sponsor_logos/superfly.svg" />
+                </a>
+                
+                <a href="https://starrhillpresents.com/" target="_blank">
+                    <img alt="Star Hill" class="min-h-[16px] lg:min-h-[27px] md:min-w-[80px] lg:mx-5" src="assets/sponsor_logos/starrHill.svg" />
+                </a>
+                
+            </div>
+        </div>
+    </div>
+</div></div>
+    <script src="js/site.js%3Fid=bad47918c1b630f4271b5517cb957385"></script>
+    <script src="js/nav.js%3Fid=d41d8cd98f00b204e9800998ecf8427e"></script>
+</body>
+
+</html>

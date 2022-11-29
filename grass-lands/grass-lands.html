@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <link rel="stylesheet" href="../css/tailwind.css%3Fid=8717eab0bfebead52d59ecfa77e2f99c.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/xpm2von.css" />
+    <link rel="icon" href="https://sfoutsidelands.com/assets/favicon.ico" />
+
+    <!-- /snippets/_seo.antlers.html -->
+
+<title>
+    
+    Grass Lands
+    |
+    
+    Outside Lands
+</title>
+
+
+
+    <meta name="description" content="
+">
+
+
+
+
+    
+
+
+
+
+    
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta property="og:site_name" content="Outside Lands">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+
+    <meta property="og:title" content="Grass Lands">
+
+
+    <meta property="og:description" content="
+">
+
+
+
+
+
+
+
+
+    
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-1158508-5"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            window.dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
+
+        gtag("config", "UA-1158508-5");
+    </script>
+</head>
+
+<body class="bg-themeDarkBrown" id="#top">
+    
+        
+        
+    
+
+    <div
+    class="hidden md:flex flex-row justify-end items-center bg-themeDarkBrown min-h-[51px] md:px-[70px]"
+>
+    <div class="flex flex-row items-center">
+        
+        <a
+            class="text-themeCream navigationItem md:mr-[30px] md:last:mr-0 lg:mr-10 lg:last:mr-0"
+            href="https://outsidelands.shop.musictoday.com/"
+            target="_blank"
+            >Merch</a
+        >
+        
+        <a
+            class="text-themeCream navigationItem md:mr-[30px] md:last:mr-0 lg:mr-10 lg:last:mr-0"
+            href="../info.html"
+            >Info</a
+        >
+        
+        <a
+            class="text-themeCream navigationItem md:mr-[30px] md:last:mr-0 lg:mr-10 lg:last:mr-0"
+            href="../news.html"
+            >News</a
+        >
+        
+        <a
+            class="text-themeCream navigationItem md:mr-[30px] md:last:mr-0 lg:mr-10 lg:last:mr-0"
+            href="../get-involved.html"
+            >Get Involved</a
+        >
+        
+    </div>
+</div>
+ <div x-data="{ mobileNavOpen: false }" class="z-[100]">
+    <div id="navigation"
+        class="flex flex-row justify-between items-center w-full bg-white h-[60px] px-5 md:h-[96px] md:px-[58px] lg:px-[65px]">
+        <a href="../index.html"><img alt="Outsidelands Logo" src="../assets/static/outsidelandsLogo.svg"
+                class="h-[20px] md:h-[23px] lg:h-[37px]" /></a>
+
+        
+        <div class="hidden md:flex md:flex-row md:items-center">
+              
+            <a class="text-themeBrown navigationItem md:mr-[30px] md:last:mr-0 lg:mr-10 lg:last:mr-0"
+                href="../lineup.html">Lineup</a>
+                
+            <a class="text-themeBrown navigationItem md:mr-[30px] md:last:mr-0 lg:mr-10 lg:last:mr-0"
+                href="../schedule.html">Schedule</a>
+                
+            <a class="text-themeBrown navigationItem md:mr-[30px] md:last:mr-0 lg:mr-10 lg:last:mr-0"
+                href="../experiences.html">Experiences</a>
+              
+        </div>
+        <div class="md:hidden">
+            <img @click="mobileNavOpen = true" x-show="mobileNavOpen == false" src="../assets/hamburger.svg"
+                class="h-[30px]" />
+            <img @click="mobileNavOpen = false" x-show="mobileNavOpen == true" src="../assets/x.svg" class="h-[30px]" />
+        </div>
+
+        
+    </div>
+
+    <div x-show="mobileNavOpen == true"
+        class="z-[-100] absolute top-0 bg-white mt-[60px] w-full flex flex-col items-center text-center py-[33px]"
+        :class="{ 'zHigh': mobileNavOpen }">
+         
+        <a @click="mobileNavOpen = false" class="text-themeBrown navigationItem text-center pb-[30px]"
+            href="../lineup.html">Lineup</a>
+          
+        <a @click="mobileNavOpen = false" class="text-themeBrown navigationItem text-center pb-[30px]"
+            href="../schedule.html">Schedule</a>
+          
+        <a @click="mobileNavOpen = false" class="text-themeBrown navigationItem text-center pb-[30px]"
+            href="../experiences.html">Experiences</a>
+         
+
+        <div class="mt-[40px] flex flex-col items-center">
+            
+            <a @click="mobileNavOpen = false" class="text-themeBrown navigationItem text-center pb-[30px]"
+                href="https://outsidelands.shop.musictoday.com/">Merch</a>
+            <a @click="mobileNavOpen = false" class="text-themeBrown navigationItem text-center pb-[30px]"
+                href="../info.html">Info</a>
+            <a @click="mobileNavOpen = false" class="text-themeBrown navigationItem text-center pb-[30px]"
+                href="../news.html">News</a>
+            <a @click="mobileNavOpen = false" class="text-themeBrown navigationItem text-center pb-[30px]"
+                href="../get-involved.html">Get Involved</a>
+        </div>
+    </div>
+</div>
+    <div class="">
+<div class="w-full"><div x-data="{ showBlock: true, showNoStatement : false }" class="z-[200] fixed inset-0 bg-themeBlue flex flex-col"
+    :class="showBlock ? '' : 'hidden'">
+
+    <div
+    class="hidden md:flex flex-row justify-end items-center bg-themeDarkBrown min-h-[51px] md:px-[70px]"
+>
+    <div class="flex flex-row items-center">
+        
+        <a
+            class="text-themeCream navigationItem md:mr-[30px] md:last:mr-0 lg:mr-10 lg:last:mr-0"
+            href="https://outsidelands.shop.musictoday.com/"
+            target="_blank"
+            >Merch</a
+        >
+        
+        <a
+            class="text-themeCream navigationItem md:mr-[30px] md:last:mr-0 lg:mr-10 lg:last:mr-0"
+            href="../info.html"
+            >Info</a
+        >
+        
+        <a
+            class="text-themeCream navigationItem md:mr-[30px] md:last:mr-0 lg:mr-10 lg:last:mr-0"
+            href="../news.html"
+            >News</a
+        >
+        
+        <a
+            class="text-themeCream navigationItem md:mr-[30px] md:last:mr-0 lg:mr-10 lg:last:mr-0"
+            href="../get-involved.html"
+            >Get Involved</a
+        >
+        
+    </div>
+</div>
+ <div x-data="{ mobileNavOpen: false }" class="z-[100]">
+    <div id="navigation"
+        class="flex flex-row justify-between items-center w-full bg-white h-[60px] px-5 md:h-[96px] md:px-[58px] lg:px-[65px]">
+        <a href="../index.html"><img alt="Outsidelands Logo" src="../assets/static/outsidelandsLogo.svg"
+                class="h-[20px] md:h-[23px] lg:h-[37px]" /></a>
+
+        
+        <div class="hidden md:flex md:flex-row md:items-center">
+              
+            <a class="text-themeBrown navigationItem md:mr-[30px] md:last:mr-0 lg:mr-10 lg:last:mr-0"
+                href="../lineup.html">Lineup</a>
+                
+            <a class="text-themeBrown navigationItem md:mr-[30px] md:last:mr-0 lg:mr-10 lg:last:mr-0"
+                href="../schedule.html">Schedule</a>
+                
+            <a class="text-themeBrown navigationItem md:mr-[30px] md:last:mr-0 lg:mr-10 lg:last:mr-0"
+                href="../experiences.html">Experiences</a>
+              
+        </div>
+        <div class="md:hidden">
+            <img @click="mobileNavOpen = true" x-show="mobileNavOpen == false" src="../assets/hamburger.svg"
+                class="h-[30px]" />
+            <img @click="mobileNavOpen = false" x-show="mobileNavOpen == true" src="../assets/x.svg" class="h-[30px]" />
+        </div>
+
+        
+    </div>
+
+    <div x-show="mobileNavOpen == true"
+        class="z-[-100] absolute top-0 bg-white mt-[60px] w-full flex flex-col items-center text-center py-[33px]"
+        :class="{ 'zHigh': mobileNavOpen }">
+         
+        <a @click="mobileNavOpen = false" class="text-themeBrown navigationItem text-center pb-[30px]"
+            href="../lineup.html">Lineup</a>
+          
+        <a @click="mobileNavOpen = false" class="text-themeBrown navigationItem text-center pb-[30px]"
+            href="../schedule.html">Schedule</a>
+          
+        <a @click="mobileNavOpen = false" class="text-themeBrown navigationItem text-center pb-[30px]"
+            href="../experiences.html">Experiences</a>
+         
+
+        <div class="mt-[40px] flex flex-col items-center">
+            
+            <a @click="mobileNavOpen = false" class="text-themeBrown navigationItem text-center pb-[30px]"
+                href="https://outsidelands.shop.musictoday.com/">Merch</a>
+            <a @click="mobileNavOpen = false" class="text-themeBrown navigationItem text-center pb-[30px]"
+                href="../info.html">Info</a>
+            <a @click="mobileNavOpen = false" class="text-themeBrown navigationItem text-center pb-[30px]"
+                href="../news.html">News</a>
+            <a @click="mobileNavOpen = false" class="text-themeBrown navigationItem text-center pb-[30px]"
+                href="../get-involved.html">Get Involved</a>
+        </div>
+    </div>
+</div>
+    <div class="flex-grow px-7 pt-14 pb-20 md:pt-28 md:pb-44">
+        <div class="max-w-[1230px] mx-auto">
+
+            <div class="bg-themeCream border border-themeBrown px-4 pt-10 pb-28 md:px-14 md:pt-20 md:pb-32">
+
+                <h1 class="text-themeGreen textBorder w-full text-center pb-8 md:pb-20">
+                    
+                    Welcome to Grass Lands
+                    
+                </h1>
+                <h3 class="text-themeBlue textBorder text-center max-w-[530px] mx-auto pb-12" x-show="!showNoStatement">
+                    
+                    Are you at least 21 years of age or older?
+                    
+                </h3>
+
+                <h3 class="text-themeBlue textBorder text-center max-w-[530px] mx-auto pb-12" x-show="showNoStatement">
+                    You may not enter
+                </h3>
+
+                <div x-show="!showNoStatement" class="flex flex-col items-center  justify-center md:flex-row  ">
+
+                    <div class="max-w-max min-w-[167px] mb-5 md:mx-[25px] md:mb-0">
+                        <div x-on:click="showBlock = false"
+                            class="w-full tabletBold blob-btn whitespace-nowrap z-[1] relative text-center uppercase px-11 pt-5 pb-5 text-themeCream bg-transparent rounded-[30px] transition-all duration-500">
+                            Yes
+                            <span
+                                class="z-[-1] overflow-hidden absolute left-0 top-0 w-full h-full bg-themeGreen rounded-[30px]">
+                                <span class="blob-btn__blobs">
+                                    <span class="blob-btn__blob bg-themeBlue"></span>
+                                    <span class="blob-btn__blob bg-themeBlue"></span>
+                                    <span class="blob-btn__blob bg-themeBlue"></span>
+                                    <span class="blob-btn__blob bg-themeBlue"></span>
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="max-w-max min-w-[167px] mb-5 md:mx-[25px] md:mb-0">
+                        <div x-on:click="showNoStatement = true"
+                            class="w-full tabletBold blob-btn whitespace-nowrap z-[1] relative text-center uppercase px-11 pt-5 pb-5 text-themeCream bg-transparent rounded-[30px] transition-all duration-500">
+                            No
+                            <span
+                                class="z-[-1] overflow-hidden absolute left-0 top-0 w-full h-full bg-themeGreen rounded-[30px]">
+                                <span class="blob-btn__blobs">
+                                    <span class="blob-btn__blob bg-themeBlue"></span>
+                                    <span class="blob-btn__blob bg-themeBlue"></span>
+                                    <span class="blob-btn__blob bg-themeBlue"></span>
+                                    <span class="blob-btn__blob bg-themeBlue"></span>
+                                </span>
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div></div>
+
+
+
+
+<div class="w-full bg-themeGreen">
+    <div class="pt-7 px-7 lg:pt-12 lg:px-24">
+        <div class="max-w-[1230px] m-auto">
+            
+            <div class="flex flex-row items-center tabletBold text-[16px] text-themeCream">
+                <a href="../experiences.html" class="underline">Experiences</a>
+                <span class="px-1">></span>
+                <span>
+                     Grass Lands 
+                </span>
+                <span class="px-1">></span>
+                <span>Grass Lands</span>
+            </div>
+             
+            <h1 class="pt-5 text-themeCream textBorder uppercase">Grass Lands</h1>
+            
+            <div class="mt-10 bg-themeCream rounded-t-[40px] px-7 pt-12 lg:pt-28 lg:px-16">
+                 
+                <div class="w-full"><div class="relative pb-11 max-w-[1009px] m-auto flex flex-col lg:flex-row lg:justify-between lg:items-center lg:pb-28">
+    
+    <img src="../img/containers/assets/JoshWithersOSL2018_FriAtmosphere_Withers_jjw1992.png/6255a4165a3bad543d3963c42734c3df.png" alt="" class="w-full
+    lg:max-w-[530px]" />
+    <div class="pt-5 w-full lg:max-w-[400px] lg:ml-10 lg:pt-0">
+        <h3 class="text-themeOrange textBorder pb-6 text-[22px] lg:text-[38px]">
+            About
+        </h3>
+        <p class="text-themeBrown">The first curated cannabis experience at a major American music festival returns for year four! Grass Lands is a 21+ celebration of all things cannabis, with education and resources about how it integrates into our daily lives.
+<br><br>
+Head to SoPo (South of the Polo Fields) and explore the Grass Lands town square for all the essentials: buy goods from some of the finest purveyors around at The Farmers’ Market by High Times, including Grass Lands-exclusive products from Timeless, Woodstock Heritage and Sundae School; consume your purchases at the Garden of Weed’n; stop by delicious food vendors when cravings hit, and take in some live music in the Arts District. On Friday Grass Lands will be treated to music from DJ Funklor, Saturday DJ Sep will be bringing the good vibes, and Sunday will be closed out by APE - a six-piece band that carves tikis during their set!
+<br><br>
+Want to skip the lines at The Farmers’ Market by High Times? Download the Outside Lands app and pre-order your products ahead of time. They’ll be ready to pick up when you arrive!
+<br><br>
+License #: CEO14-0000067-LIC</p>
+        
+    </div>
+    
+    
+</div></div>
+                     
+                
+                      
+                
+                <div class="w-full"><!-- brand logos -->
+<div class="w-full bg-themeCream px-[26px] py-[86px] lg:py-[120px]">
+    
+    <h2 class="w-full text-center text-themeOrange pb-5 textBorder">Partners</h2>
+    
+    <div
+        class="max-w-[1150px] m-auto grid gap-y-4 grid-cols-2 gap-x-4 items-center justify-items-center md:grid-cols-4 lg:grid-cols-5">
+        
+        <a target="_blank" rel="nofollow" href="https://www.stiiizy.com/" class="my-[25px]"><img loading="lazy" alt=""
+                src="../assets/stiiizy_logo_black.png" style="height:45px" /></a>
+        
+        <a target="_blank" rel="nofollow" href="https://hightimes.com/" class="my-[25px]"><img loading="lazy" alt=""
+                src="../assets/hightimes_logo_primary.png" style="height:40px" /></a>
+        
+        <a target="_blank" rel="nofollow" href="https://www.traditional.com/" class="my-[25px]"><img loading="lazy" alt=""
+                src="../assets/traditional-logo_t-top---morgan-allen.png" style="height:55px" /></a>
+        
+        <a target="_blank" rel="nofollow" href="https://www.treez.io/" class="my-[25px]"><img loading="lazy" alt=""
+                src="../assets/updated-logo-dark-(1)---natasha-nicholas.png" style="height:70px" /></a>
+        
+        <a target="_blank" rel="nofollow" href="https://www.timelessvapes.com/" class="my-[25px]"><img loading="lazy" alt=""
+                src="../assets/timeless-text-drip-horizontal.png" style="height:40px" /></a>
+        
+        <a target="_blank" rel="nofollow" href="https://zigzag.com/" class="my-[25px]"><img loading="lazy" alt=""
+                src="../assets/zig-zag-boris-logo.png" style="height:100px" /></a>
+        
+        <a target="_blank" rel="nofollow" href="https://sundae.school/" class="my-[25px]"><img loading="lazy" alt=""
+                src="../assets/sundae-school-logos---naomi-chi.png" style="height:75px" /></a>
+        
+        <a target="_blank" rel="nofollow" href="https://woodstockheritagestrains.com/" class="my-[25px]"><img loading="lazy" alt=""
+                src="../assets/woodstock-logo.png" style="height:43px" /></a>
+        
+        <a target="_blank" rel="nofollow" href="https://www.claybourneco.com/" class="my-[25px]"><img loading="lazy" alt=""
+                src="../assets/claybourne_logos_2022_color---joey-daroza-(2).png" style="height:105px" /></a>
+        
+        <a target="_blank" rel="nofollow" href="https://www.headcount.org/" class="my-[25px]"><img loading="lazy" alt=""
+                src="../assets/cannabis-voter-project-logo.png" style="height:110px" /></a>
+        
+        <a target="_blank" rel="nofollow" href="https://embarcevents.com/" class="my-[25px]"><img loading="lazy" alt=""
+                src="../assets/embarc_events.png" style="height:27px" /></a>
+        
+    </div>
+</div></div>
+                
+                  
+                <div class="w-full"><div class="w-full pb-10 md:pb-28">
+    <div class="relative max-w-[910px] mx-auto">
+         <img src="../img/containers/assets/ol22_web_grass-lands_performances_072522_r2_16x9_notimes.jpg/3e9f18c89da4cd8029c90e70ecfc4d8b.jpg" alt="" class="w-full" />  
+        <img src="../assets/experience_icons/smileyPink.png" alt=""
+            class="hidden lg:block absolute w-[200px] h-[200px] my-auto top-[25%] left-[-232px]" />
+        
+    </div>
+</div></div>
+                    
+                
+                
+            </div>
+        </div>
+    </div>
+    <div class="relative">
+        <div class="absolute mx-7 left-0 right-0 h-full lg:mx-24">
+            <div class="bg-themeCream max-w-[1230px] m-auto h-full w-full"></div>
+        </div>
+        
+    </div>
+
+    <div>
+        
+    </div>
+</div></div>
+    <div class="w-full"><div class="bg-themeDarkBrown relative px-5 pt-[75px] pb-5 lg:px-[65px] lg:pt-[95px]">
+    <a href="grass-lands.html#top">
+        <div
+            class="flex z-[100] items-center justify-center absolute w-[66px] h-[66px] rounded-full bg-themeBrown border-2 border-cream top-[-33px] right-[20px] lg:right-[53px]">
+            <img class="w-[24px]" src="../assets/static/footerButtonArrow.svg" alt="" />
+        </div>
+    </a>
+    <div class="flex flex-col md:flex-row md:justify-between md:items-center">
+        <img class="w-full md:w-[320px]" src="../assets/outsidelandsTextLogo.svg" alt="" />
+        <div class="grid grid-cols-6 max-w-max pt-6 md:pt-0">
+            
+            <a rel="nofollow" href="https://www.tiktok.com/@sfoutsidelands" target="_blank" class="mr-[15px] md:mr-[19px]">
+                <img class="w-[40px] md:w-[50px]" src="../assets/tikTok.svg" alt="tik tok" />
+            </a>
+            
+            <a rel="nofollow" href="https://www.facebook.com/SFOutsideLands/" target="_blank" class="mr-[15px] md:mr-[19px]">
+                <img class="w-[40px] md:w-[50px]" src="../assets/facebook.svg" alt="facebook" />
+            </a>
+            
+            <a rel="nofollow" href="https://www.instagram.com/outsidelands/?hl=en" target="_blank" class="mr-[15px] md:mr-[19px]">
+                <img class="w-[40px] md:w-[50px]" src="../assets/instagram.svg" alt="Instagram" />
+            </a>
+            
+            <a rel="nofollow" href="https://twitter.com/sfoutsidelands" target="_blank" class="mr-[15px] md:mr-[19px]">
+                <img class="w-[40px] md:w-[50px]" src="../assets/twitter.svg" alt="twitter" />
+            </a>
+            
+            <a rel="nofollow" href="https://www.youtube.com/user/OutsideLands/videos?app=desktop&view=0&sort=dd&shelf_id=0" target="_blank" class="mr-[15px] md:mr-[19px]">
+                <img class="w-[40px] md:w-[50px]" src="../assets/youtube.svg" alt="youtube" />
+            </a>
+            
+            <a rel="nofollow" href="https://www.twitch.tv/sfoutsidelands" target="_blank" class="mr-[15px] md:mr-[19px]">
+                <img class="w-[40px] md:w-[50px]" src="../assets/twitch.svg" alt="twitch" />
+            </a>
+            
+        </div>
+    </div>
+
+    <div
+        class="grid grid-cols-2 py-[53px] md:pt-[46px] md:pb-[40px] lg:pt-[56px] max-w-max lg:pb-[38px] md:grid-cols-3 lg:grid-cols-4">
+         
+        <a rel="nofollow" target="" href="../info.html"
+            class="text-themeCream text-[16px] leading-[145%] tabletBold mb-[23px] last:mb-0 mr-4 md:mr-10">Info</a>
+         
+        <a rel="nofollow" target="" href="../news.html"
+            class="text-themeCream text-[16px] leading-[145%] tabletBold mb-[23px] last:mb-0 mr-4 md:mr-10">News</a>
+         
+        <a rel="nofollow" target="" href="../contact.html"
+            class="text-themeCream text-[16px] leading-[145%] tabletBold mb-[23px] last:mb-0 mr-4 md:mr-10">Contact</a>
+         
+        <a rel="nofollow" target="" href="../premium-experiences/premium-experiences.html"
+            class="text-themeCream text-[16px] leading-[145%] tabletBold mb-[23px] last:mb-0 mr-4 md:mr-10">Premium Experiences</a>
+         
+        <a rel="nofollow" target="" href="../accessibility.html"
+            class="text-themeCream text-[16px] leading-[145%] tabletBold mb-[23px] last:mb-0 mr-4 md:mr-10">Accessibility</a>
+         
+        <a rel="nofollow" target="" href="../lineup.html"
+            class="text-themeCream text-[16px] leading-[145%] tabletBold mb-[23px] last:mb-0 mr-4 md:mr-10">Lineup</a>
+         
+        <a rel="nofollow" target="_blank" href="https://outsidelands.shop.musictoday.com/"
+            class="text-themeCream text-[16px] leading-[145%] tabletBold mb-[23px] last:mb-0 max-w-max mr-4 md:mr-10">Merch</a>
+        
+         
+        <a rel="nofollow" target="" href="../press.html"
+            class="text-themeCream text-[16px] leading-[145%] tabletBold mb-[23px] last:mb-0 mr-4 md:mr-10">Press</a>
+         
+        <a rel="nofollow" target="" href="../311.html"
+            class="text-themeCream text-[16px] leading-[145%] tabletBold mb-[23px] last:mb-0 mr-4 md:mr-10">Neighborhood 311</a>
+         
+        <a rel="nofollow" target="" href="../park-attractions.html"
+            class="text-themeCream text-[16px] leading-[145%] tabletBold mb-[23px] last:mb-0 mr-4 md:mr-10">Park Attractions</a>
+         
+        <a rel="nofollow" target="" href="../partners.html"
+            class="text-themeCream text-[16px] leading-[145%] tabletBold mb-[23px] last:mb-0 mr-4 md:mr-10">Partners</a>
+         
+        <a rel="nofollow" target="" href="../neighborhood.html"
+            class="text-themeCream text-[16px] leading-[145%] tabletBold mb-[23px] last:mb-0 mr-4 md:mr-10">Neighborhoods</a>
+         
+        <a rel="nofollow" target="" href="../experiences.html"
+            class="text-themeCream text-[16px] leading-[145%] tabletBold mb-[23px] last:mb-0 mr-4 md:mr-10">Experiences</a>
+         
+        <a rel="nofollow" target="" href="../schedule.html"
+            class="text-themeCream text-[16px] leading-[145%] tabletBold mb-[23px] last:mb-0 mr-4 md:mr-10">Schedule</a>
+        
+    </div>
+    <div class="w-full flex flex-col md:flex-row md:justify-between">
+        
+        <a rel="nofollow" href="../terms.html"
+            class="underline text-themeCream text-[16px] leading-[145%] tabletRegular pb-[23px] last:mb-0">Terms & Conditions</a>
+        
+        <a rel="nofollow" href="../privacy.html"
+            class="underline text-themeCream text-[16px] leading-[145%] tabletRegular pb-[23px] last:mb-0">Privacy Policy</a>
+        
+    </div>
+    <div class="border-t border-themeDarkYellow pt-[20px]">
+        <div class="flex flex-col-reverse md:flex-row md:justify-between md:items-center">
+            <div class="text-themeDarkYellow text-[12px] tabletBold pt-5 md:pt-0">
+                © 2022 Outside Lands. All rights reserved
+            </div>
+            <div class="flex flex-row items-center justify-between">
+                
+                <a href="https://apeconcerts.com/" target="_blank">
+                    <img alt="Another Planet" class="min-h-[16px] lg:min-h-[27px] md:min-w-[80px] lg:mx-5" src="../assets/sponsor_logos/anotherPlanet.svg" />
+                </a>
+                
+                <a href="https://superf.ly/" target="_blank">
+                    <img alt="Superfly" class="min-h-[16px] lg:min-h-[27px] md:min-w-[80px] lg:mx-5" src="../assets/sponsor_logos/superfly.svg" />
+                </a>
+                
+                <a href="https://starrhillpresents.com/" target="_blank">
+                    <img alt="Star Hill" class="min-h-[16px] lg:min-h-[27px] md:min-w-[80px] lg:mx-5" src="../assets/sponsor_logos/starrHill.svg" />
+                </a>
+                
+            </div>
+        </div>
+    </div>
+</div></div>
+    <script src="../js/site.js%3Fid=bad47918c1b630f4271b5517cb957385"></script>
+    <script src="../js/nav.js%3Fid=d41d8cd98f00b204e9800998ecf8427e"></script>
+</body>
+
+</html>

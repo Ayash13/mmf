@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <link rel="stylesheet" href="../css/tailwind.css%3Fid=8717eab0bfebead52d59ecfa77e2f99c.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/xpm2von.css" />
+    <link rel="icon" href="https://sfoutsidelands.com/assets/favicon.ico" />
+
+    <!-- /snippets/_seo.antlers.html -->
+
+<title>
+    
+    Eco Lands
+    |
+    
+    Outside Lands
+</title>
+
+
+
+    <meta name="description" content="
+">
+
+
+
+
+    
+
+
+
+
+    
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta property="og:site_name" content="Outside Lands">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+
+    <meta property="og:title" content="Eco Lands">
+
+
+    <meta property="og:description" content="
+">
+
+
+
+
+
+
+
+
+    
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-1158508-5"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            window.dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
+
+        gtag("config", "UA-1158508-5");
+    </script>
+</head>
+
+<body class="bg-themeDarkBrown" id="#top">
+    
+        
+        
+    
+
+    <div
+    class="hidden md:flex flex-row justify-end items-center bg-themeDarkBrown min-h-[51px] md:px-[70px]"
+>
+    <div class="flex flex-row items-center">
+        
+        <a
+            class="text-themeCream navigationItem md:mr-[30px] md:last:mr-0 lg:mr-10 lg:last:mr-0"
+            href="https://outsidelands.shop.musictoday.com/"
+            target="_blank"
+            >Merch</a
+        >
+        
+        <a
+            class="text-themeCream navigationItem md:mr-[30px] md:last:mr-0 lg:mr-10 lg:last:mr-0"
+            href="../info.html"
+            >Info</a
+        >
+        
+        <a
+            class="text-themeCream navigationItem md:mr-[30px] md:last:mr-0 lg:mr-10 lg:last:mr-0"
+            href="../news.html"
+            >News</a
+        >
+        
+        <a
+            class="text-themeCream navigationItem md:mr-[30px] md:last:mr-0 lg:mr-10 lg:last:mr-0"
+            href="../get-involved.html"
+            >Get Involved</a
+        >
+        
+    </div>
+</div>
+ <div x-data="{ mobileNavOpen: false }" class="z-[100]">
+    <div id="navigation"
+        class="flex flex-row justify-between items-center w-full bg-white h-[60px] px-5 md:h-[96px] md:px-[58px] lg:px-[65px]">
+        <a href="../index.html"><img alt="Outsidelands Logo" src="../assets/static/outsidelandsLogo.svg"
+                class="h-[20px] md:h-[23px] lg:h-[37px]" /></a>
+
+        
+        <div class="hidden md:flex md:flex-row md:items-center">
+              
+            <a class="text-themeBrown navigationItem md:mr-[30px] md:last:mr-0 lg:mr-10 lg:last:mr-0"
+                href="../lineup.html">Lineup</a>
+                
+            <a class="text-themeBrown navigationItem md:mr-[30px] md:last:mr-0 lg:mr-10 lg:last:mr-0"
+                href="../schedule.html">Schedule</a>
+                
+            <a class="text-themeBrown navigationItem md:mr-[30px] md:last:mr-0 lg:mr-10 lg:last:mr-0"
+                href="../experiences.html">Experiences</a>
+              
+        </div>
+        <div class="md:hidden">
+            <img @click="mobileNavOpen = true" x-show="mobileNavOpen == false" src="../assets/hamburger.svg"
+                class="h-[30px]" />
+            <img @click="mobileNavOpen = false" x-show="mobileNavOpen == true" src="../assets/x.svg" class="h-[30px]" />
+        </div>
+
+        
+    </div>
+
+    <div x-show="mobileNavOpen == true"
+        class="z-[-100] absolute top-0 bg-white mt-[60px] w-full flex flex-col items-center text-center py-[33px]"
+        :class="{ 'zHigh': mobileNavOpen }">
+         
+        <a @click="mobileNavOpen = false" class="text-themeBrown navigationItem text-center pb-[30px]"
+            href="../lineup.html">Lineup</a>
+          
+        <a @click="mobileNavOpen = false" class="text-themeBrown navigationItem text-center pb-[30px]"
+            href="../schedule.html">Schedule</a>
+          
+        <a @click="mobileNavOpen = false" class="text-themeBrown navigationItem text-center pb-[30px]"
+            href="../experiences.html">Experiences</a>
+         
+
+        <div class="mt-[40px] flex flex-col items-center">
+            
+            <a @click="mobileNavOpen = false" class="text-themeBrown navigationItem text-center pb-[30px]"
+                href="https://outsidelands.shop.musictoday.com/">Merch</a>
+            <a @click="mobileNavOpen = false" class="text-themeBrown navigationItem text-center pb-[30px]"
+                href="../info.html">Info</a>
+            <a @click="mobileNavOpen = false" class="text-themeBrown navigationItem text-center pb-[30px]"
+                href="../news.html">News</a>
+            <a @click="mobileNavOpen = false" class="text-themeBrown navigationItem text-center pb-[30px]"
+                href="../get-involved.html">Get Involved</a>
+        </div>
+    </div>
+</div>
+    <div class="">
+
+
+
+<div class="w-full"><div
+    class="flex flex-row items-center justify-center relative overflow-hidden w-full h-[469px] max-h-screen md:h-[469px] lg:h-[469px]">
+    <img src="../img/containers/assets/ecolands_hero-1656448647.jpg/d19b5ba21d2871b58ba617f323595e50.jpg" alt=""
+        class="absolute object-cover object-center min-h-full min-w-full z-[-1]" />
+
+    
+</div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="w-full"><div class="w-full px-7 py-7 bg-themeBlue md:py-12">
+    <div class="max-w-[1230px] mx-auto">
+        
+        
+        
+<div class="flex flex-row items-center tabletBold text-[16px] text-themeCream">
+    <a href="../experiences.html" class="underline">Experiences</a>
+    <span class="px-1">></span>
+    <span>  Sustainability  </span>
+    <span class="px-1">></span>
+    <span>Eco Lands</span>
+</div>
+
+        
+        
+
+        <div class="flex flex-col pt-3 md:pt-5 md:flex-row md:items-center">
+            
+            <img src="../assets/experience_icons/flower-9.svg" alt="" class="mb-5 w-[45px] h-[45px] md:w-[55px] md:h-[55px] md:mr-4 md:mb-0" />
+            
+            <h1 class="textBorder text-themeCream">Eco Lands</h1>
+        </div>
+    </div>
+</div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="w-full"><div class="bg-themeCream px-7 pt-5 pb-6 md:pt-32 md:pb-32">
+    <div class="relative max-w-[1180px] m-auto flex flex-col-reverse lg:flex-row lg:justify-between lg:items-center">
+
+
+        
+        <div class="pt-5 w-full lg:max-w-[450px] lg:mr-10 lg:pt-0">
+    <h3 class="text-themeOrange textBorder pb-6 text-[22px] lg:text-[38px]">
+        About
+    </h3>
+
+    <div class="text-themeBrown">
+        
+        
+        <div
+            class="bard-content w-full max-w-none prose prose-p:text-themeBrown prose-strong:text-themeBrown prose-a:text-themeBrown prose-p:text-[16px] prose-p:tabletRegular">
+            
+            
+            <p>Ground zero for giving back, Eco Lands is where our amazing non-profit partners set up shop in Golden Gate Park. Stop by Hellman Hollow near the Panhandle stage to learn how difference-making local and national organizations like Planting Justice, HeadCount, Friends of the Urban Forest and Outside Lands Works beneficiaries Sunset Youth Services and Youth Art Exchange contribute to our communities.</p>
+            
+            
+            
+        </div>
+        
+    </div>
+
+    
+</div>
+        
+
+        
+        <div class="relative">
+             <img src="../img/containers/assets/ol_2018_jorgphoto_jp2_1341-1656111678.jpg/a39d45b3726b25926f3cf2bf7b5e2300.jpg" alt="" class="w-full lg:max-w-[530px]" /> 
+        </div>
+        
+    </div>
+</div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="w-full"><div
+    class="relative bg-themeCream px-7 pt-10 pb-20 md:pt-24  md:pb-56"
+>
+    <div class="max-w-[1010px] mx-auto relative">
+         
+        <h2
+            class="w-full text-center text-themeOrange textBorder pb-7 md:pb-16"
+        >
+            Non-Profit Partners
+        </h2>
+
+        <div class="flex flex-col"> <div class="bg-themeCream border border-themeBrown flex flex-col md:flex-row md:px-12 md:py-12 md:justify-start mb-12">
+    
+    <div class="overflow-hidden relative w-full h-[225px] md:w-[385px] md:h-[250px] md:mr-16">
+        <img src="../img/containers/assets/screen-shot-2022-06-23-at-10.45.15-am.png/0e9890acd4d4283c3fb763877b8d8d60.png" alt="" class="absolute min-h-[101%] min-w-[101%] max-h-[101%] max-w-none
+        object-cover object-center md:max-w-[101%]" />
+    </div>
+
+    <div class="flex flex-col md:max-w-[408px] px-4 pt-4 pb-9 md:p-0 md:ml-5">
+        <h3 class="text-themeBrown pb-4 md:pb-9">California Academy of Sciences</h3>
+
+        
+        <p class="text-themeBrown tabletRegular">The mission of the California Academy of Sciences is to regenerate the natural world through science, learning, and collaboration. Life-changing moments. World-changing science. We’re an aquarium, planetarium, rainforest, and natural history museum in the heart of San Francisco’s Golden Gate Park—and a powerful voice for biodiversity research and exploration, environmental education, and sustainability across the globe.</p>
+          
+
+        
+        <a href="https://www.calacademy.org/" target="_blank">
+            <div class="max-w-max wiggle-link text-themeOrange tabletBold uppercase pt-4 pb-2">
+                LEARN MORE
+            </div>
+        </a>
+
+        
+          
+    </div>
+    
+</div>  <div class="bg-themeCream border border-themeBrown flex flex-col md:flex-row md:px-12 md:py-12 md:justify-start mb-12">
+    
+    <div class="overflow-hidden relative w-full h-[225px] md:w-[385px] md:h-[250px] md:mr-16">
+        <img src="../img/containers/assets/screen-shot-2022-06-23-at-10.45.51-am.png/2579185ac85727e860c79c80d87dfa39.png" alt="" class="absolute min-h-[101%] min-w-[101%] max-h-[101%] max-w-none
+        object-cover object-center md:max-w-[101%]" />
+    </div>
+
+    <div class="flex flex-col md:max-w-[408px] px-4 pt-4 pb-9 md:p-0 md:ml-5">
+        <h3 class="text-themeBrown pb-4 md:pb-9">Fireside Project</h3>
+
+        
+        <p class="text-themeBrown tabletRegular">The mission of Fireside Project is to help people minimize the risks of their psychedelic experiences in ways such as providing compassionate, accessible, and culturally responsive peer support, educating the public, and furthering psychedelic research, while embracing practices that increase equity, power sharing, and belonging within the psychedelic movement.</p>
+          
+
+        
+        <a href="https://firesideproject.org/" target="_blank">
+            <div class="max-w-max wiggle-link text-themeOrange tabletBold uppercase pt-4 pb-2">
+                LEARN MORE
+            </div>
+        </a>
+
+        
+          
+    </div>
+    
+</div>  <div class="bg-themeCream border border-themeBrown flex flex-col md:flex-row md:px-12 md:py-12 md:justify-start mb-12">
+    
+    <div class="overflow-hidden relative w-full h-[225px] md:w-[385px] md:h-[250px] md:mr-16">
+        <img src="../img/containers/assets/screen-shot-2022-06-23-at-10.46.23-am.png/d31ca1a9d5cc0f193adf1639acf6d2ff.png" alt="" class="absolute min-h-[101%] min-w-[101%] max-h-[101%] max-w-none
+        object-cover object-center md:max-w-[101%]" />
+    </div>
+
+    <div class="flex flex-col md:max-w-[408px] px-4 pt-4 pb-9 md:p-0 md:ml-5">
+        <h3 class="text-themeBrown pb-4 md:pb-9">Friends of the Urban Forest</h3>
+
+        
+        <p class="text-themeBrown tabletRegular">Since 1981, Friends of the Urban Forest has planted over 60,000 trees throughout San Francisco, and we aim to continue bringing neighbors together to plant and care for San Francisco’s ideal urban forest through community planting, tree care, education, and advocacy.</p>
+          
+
+        
+        <a href="https://www.friendsoftheurbanforest.org/" target="_blank">
+            <div class="max-w-max wiggle-link text-themeOrange tabletBold uppercase pt-4 pb-2">
+                LEARN MORE
+            </div>
+        </a>
+
+        
+          
+    </div>
+    
+</div>  <div class="bg-themeCream border border-themeBrown flex flex-col md:flex-row md:px-12 md:py-12 md:justify-start mb-12">
+    
+    <div class="overflow-hidden relative w-full h-[225px] md:w-[385px] md:h-[250px] md:mr-16">
+        <img src="../img/containers/assets/screen-shot-2022-06-23-at-10.48.35-am.png/a062829173310f0421847999d70290e7.png" alt="" class="absolute min-h-[101%] min-w-[101%] max-h-[101%] max-w-none
+        object-cover object-center md:max-w-[101%]" />
+    </div>
+
+    <div class="flex flex-col md:max-w-[408px] px-4 pt-4 pb-9 md:p-0 md:ml-5">
+        <h3 class="text-themeBrown pb-4 md:pb-9">Garden for the Environment</h3>
+
+        
+        <p class="text-themeBrown tabletRegular">Here at Garden for the Environment, we teach people about the environment - soil, water, plants, creatures, and climate - so together we can grow a resilient, more beautiful world.</p>
+          
+
+        
+        <a href="https://www.gardenfortheenvironment.org/" target="_blank">
+            <div class="max-w-max wiggle-link text-themeOrange tabletBold uppercase pt-4 pb-2">
+                LEARN MORE
+            </div>
+        </a>
+
+        
+          
+    </div>
+    
+</div>  <div class="bg-themeCream border border-themeBrown flex flex-col md:flex-row md:px-12 md:py-12 md:justify-start mb-12">
+    
+    <div class="overflow-hidden relative w-full h-[225px] md:w-[385px] md:h-[250px] md:mr-16">
+        <img src="../img/containers/assets/sf-conservatory-1.jpg/5c80a8edb2b9fc9e4be1939c8da399c2.jpg" alt="" class="absolute min-h-[101%] min-w-[101%] max-h-[101%] max-w-none
+        object-cover object-center md:max-w-[101%]" />
+    </div>
+
+    <div class="flex flex-col md:max-w-[408px] px-4 pt-4 pb-9 md:p-0 md:ml-5">
+        <h3 class="text-themeBrown pb-4 md:pb-9">Gardens of Golden Gate Park</h3>
+
+        
+        <p class="text-themeBrown tabletRegular">The vision for Gardens of Golden Gate Park is to become a leading cultural and conservation institution over the next decade with new partnerships, museum accreditation, enhanced visitor experience, and robust community engagement. Gardens of Golden Gate Park seeks to establish itself as a top 10 botanical garden in the country through new collections and exhibits, expanded public programs, and a larger role in worldwide conservation efforts.</p>
+          
+
+        
+        <a href="https://www.sfbg.org/gggp" target="_blank">
+            <div class="max-w-max wiggle-link text-themeOrange tabletBold uppercase pt-4 pb-2">
+                LEARN MORE
+            </div>
+        </a>
+
+        
+          
+    </div>
+    
+</div>  <div class="bg-themeCream border border-themeBrown flex flex-col md:flex-row md:px-12 md:py-12 md:justify-start mb-12">
+    
+    <div class="overflow-hidden relative w-full h-[225px] md:w-[385px] md:h-[250px] md:mr-16">
+        <img src="../img/containers/assets/screen-shot-2022-06-23-at-10.49.23-am.png/d4d862b60286f4152e6236cea791edcc.png" alt="" class="absolute min-h-[101%] min-w-[101%] max-h-[101%] max-w-none
+        object-cover object-center md:max-w-[101%]" />
+    </div>
+
+    <div class="flex flex-col md:max-w-[408px] px-4 pt-4 pb-9 md:p-0 md:ml-5">
+        <h3 class="text-themeBrown pb-4 md:pb-9">Haight Street Art Center</h3>
+
+        
+        <p class="text-themeBrown tabletRegular">The Haight Street Art Center promotes advancement of poster art and artists to enable poster/graphic art and artists to thrive and continue to enrich American popular culture. Drawing upon the influence of San Francisco's counterculture history, we provide educational and engaging experiences through art, music, exhibitions and public programs to create community, encourage personal exploration and inspire action toward positive cultural change.</p>
+          
+
+        
+        <a href="https://haightstreetart.org/" target="_blank">
+            <div class="max-w-max wiggle-link text-themeOrange tabletBold uppercase pt-4 pb-2">
+                LEARN MORE
+            </div>
+        </a>
+
+        
+          
+    </div>
+    
+</div>  <div class="bg-themeCream border border-themeBrown flex flex-col md:flex-row md:px-12 md:py-12 md:justify-start mb-12">
+    
+    <div class="overflow-hidden relative w-full h-[225px] md:w-[385px] md:h-[250px] md:mr-16">
+        <img src="../img/containers/assets/screen-shot-2022-06-23-at-11.11.11-am.png/ceed930ccf0bc5171d95b84f97c8a010.png" alt="" class="absolute min-h-[101%] min-w-[101%] max-h-[101%] max-w-none
+        object-cover object-center md:max-w-[101%]" />
+    </div>
+
+    <div class="flex flex-col md:max-w-[408px] px-4 pt-4 pb-9 md:p-0 md:ml-5">
+        <h3 class="text-themeBrown pb-4 md:pb-9">HeadCount</h3>
+
+        
+        <p class="text-themeBrown tabletRegular">HeadCount is a non-partisan, non-profit organization that promotes participation in democracy through music, culture, and digital media. The organization has registered over 400,000 voters for the 2020 election and worked with a long list of musicians and partners including Ariana Grande, Billie Eilish, Camila Cabello, Dave Matthews Band, JAY-Z, Beyoncé, March for Our Lives, RuPaul’s DragCon, MTV, and Dead & Company. With 40,000 volunteers, street teams in most major U.S. cities, and presence at more than 1,000 events each year, HeadCount ranks as one of the most active grassroots civic participation organizations in the United States. Following COVID-19 restrictions, the organization quickly pivoted to an all-digital approach that led to innovation and online initiatives to fill the needs of the public in using their voices in democracy.</p>
+          
+
+        
+        <a href="https://www.headcount.org/" target="_blank">
+            <div class="max-w-max wiggle-link text-themeOrange tabletBold uppercase pt-4 pb-2">
+                LEARN MORE
+            </div>
+        </a>
+
+        
+          
+    </div>
+    
+</div>  <div class="bg-themeCream border border-themeBrown flex flex-col md:flex-row md:px-12 md:py-12 md:justify-start mb-12">
+    
+    <div class="overflow-hidden relative w-full h-[225px] md:w-[385px] md:h-[250px] md:mr-16">
+        <img src="../img/containers/assets/screen-shot-2022-06-23-at-10.51.02-am.png/1d7432742a045f53f431c1b6c3b2b99f.png" alt="" class="absolute min-h-[101%] min-w-[101%] max-h-[101%] max-w-none
+        object-cover object-center md:max-w-[101%]" />
+    </div>
+
+    <div class="flex flex-col md:max-w-[408px] px-4 pt-4 pb-9 md:p-0 md:ml-5">
+        <h3 class="text-themeBrown pb-4 md:pb-9">Huckleberry Youth Programs</h3>
+
+        
+        <p class="text-themeBrown tabletRegular">For over 50 years, Huckleberry Youth Programs has partnered with Bay Area teens and families to overcome adversity. Huckleberry strengthens families and empowers young people with services that promote safety in times of crisis, physical and emotional health and well-being, social justice in communities facing inequity, and educational success.</p>
+          
+
+        
+        <a href="https://www.huckleberryyouth.org/" target="_blank">
+            <div class="max-w-max wiggle-link text-themeOrange tabletBold uppercase pt-4 pb-2">
+                LEARN MORE
+            </div>
+        </a>
+
+        
+          
+    </div>
+    
+</div>  <div class="bg-themeCream border border-themeBrown flex flex-col md:flex-row md:px-12 md:py-12 md:justify-start mb-12">
+    
+    <div class="overflow-hidden relative w-full h-[225px] md:w-[385px] md:h-[250px] md:mr-16">
+        <img src="../img/containers/assets/screen-shot-2022-06-23-at-10.51.19-am.png/7fa75ccb7b6406ebd9eeac55dd4d0556.png" alt="" class="absolute min-h-[101%] min-w-[101%] max-h-[101%] max-w-none
+        object-cover object-center md:max-w-[101%]" />
+    </div>
+
+    <div class="flex flex-col md:max-w-[408px] px-4 pt-4 pb-9 md:p-0 md:ml-5">
+        <h3 class="text-themeBrown pb-4 md:pb-9">LGBT Asylum Project</h3>
+
+        
+        <p class="text-themeBrown tabletRegular">The LGBT Asylum Project is the only San Francisco nonprofit organization exclusively dedicated to providing accessible legal representation for LGBT asylum seekers who are fleeing persecution due to their sexual orientation, gender identity and/or HIV status.</p>
+          
+
+        
+        <a href="https://www.lgbtasylumproject.org/" target="_blank">
+            <div class="max-w-max wiggle-link text-themeOrange tabletBold uppercase pt-4 pb-2">
+                LEARN MORE
+            </div>
+        </a>
+
+        
+          
+    </div>
+    
+</div>  <div class="bg-themeCream border border-themeBrown flex flex-col md:flex-row md:px-12 md:py-12 md:justify-start mb-12">
+    
+    <div class="overflow-hidden relative w-full h-[225px] md:w-[385px] md:h-[250px] md:mr-16">
+        <img src="../img/containers/assets/screen-shot-2022-06-23-at-10.51.37-am.png/9c0dc6e9800fe46c683e09f7bdb1cd5c.png" alt="" class="absolute min-h-[101%] min-w-[101%] max-h-[101%] max-w-none
+        object-cover object-center md:max-w-[101%]" />
+    </div>
+
+    <div class="flex flex-col md:max-w-[408px] px-4 pt-4 pb-9 md:p-0 md:ml-5">
+        <h3 class="text-themeBrown pb-4 md:pb-9">Propeller</h3>
+
+        
+        <p class="text-themeBrown tabletRegular">Propeller harnesses the powerful role culture plays in society to inspire activism and help build movements for change alongside our nonprofit partners.
+
+By leveraging the platforms of cultural influencers, our campaigns connect with people outside of the traditional reach of nonprofits. And unlike most nonprofits, we're able to take risks and invest in new technology while being structured to quickly pivot between issues.
+
+It all adds up to bringing new people into a movement doing what matters most when it matters most and having fun while doing it. Since our inception, our community has grown to nearly 1 million people, we've generated 5 million actions & raised over $3.5 million dollars for leading nonprofit organizations, and we work with many superstar artists, major festivals and other top influencers in the world. We're just getting started.</p>
+          
+
+        
+        <a href="https://www.propeller.la/" target="_blank">
+            <div class="max-w-max wiggle-link text-themeOrange tabletBold uppercase pt-4 pb-2">
+                LEARN MORE
+            </div>
+        </a>
+
+        
+          
+    </div>
+    
+</div>  <div class="bg-themeCream border border-themeBrown flex flex-col md:flex-row md:px-12 md:py-12 md:justify-start mb-12">
+    
+    <div class="overflow-hidden relative w-full h-[225px] md:w-[385px] md:h-[250px] md:mr-16">
+        <img src="../img/containers/assets/screen-shot-2022-06-23-at-10.52.23-am.png/c00f34a59aaa96652c4fab27ee60ad9b.png" alt="" class="absolute min-h-[101%] min-w-[101%] max-h-[101%] max-w-none
+        object-cover object-center md:max-w-[101%]" />
+    </div>
+
+    <div class="flex flex-col md:max-w-[408px] px-4 pt-4 pb-9 md:p-0 md:ml-5">
+        <h3 class="text-themeBrown pb-4 md:pb-9">San Francisco Parks Alliance</h3>
+
+        
+        <p class="text-themeBrown tabletRegular">San Francisco Parks Alliance partners with communities and public agencies to create, sustain, and advocate for parks and public spaces that welcome and belong to everyone.</p>
+          
+
+        
+        <a href="https://sanfranciscoparksalliance.org/" target="_blank">
+            <div class="max-w-max wiggle-link text-themeOrange tabletBold uppercase pt-4 pb-2">
+                LEARN MORE
+            </div>
+        </a>
+
+        
+          
+    </div>
+    
+</div>  <div class="bg-themeCream border border-themeBrown flex flex-col md:flex-row md:px-12 md:py-12 md:justify-start mb-12">
+    
+    <div class="overflow-hidden relative w-full h-[225px] md:w-[385px] md:h-[250px] md:mr-16">
+        <img src="../img/containers/assets/screen-shot-2022-06-23-at-10.53.25-am.png/5ce87ecff444b12c63dd48078372cc6e.png" alt="" class="absolute min-h-[101%] min-w-[101%] max-h-[101%] max-w-none
+        object-cover object-center md:max-w-[101%]" />
+    </div>
+
+    <div class="flex flex-col md:max-w-[408px] px-4 pt-4 pb-9 md:p-0 md:ml-5">
+        <h3 class="text-themeBrown pb-4 md:pb-9">San Francisco Recreation & Parks Department</h3>
+
+        
+        <p class="text-themeBrown tabletRegular">The San Francisco Recreation and Park Department’s Mission is to provide enriching recreational activities, maintain beautiful parks and preserve the environment for the well-being of everyone in our diverse community.</p>
+          
+
+        
+        <a href="https://sfrecpark.org/" target="_blank">
+            <div class="max-w-max wiggle-link text-themeOrange tabletBold uppercase pt-4 pb-2">
+                LEARN MORE
+            </div>
+        </a>
+
+        
+          
+    </div>
+    
+</div>  <div class="bg-themeCream border border-themeBrown flex flex-col md:flex-row md:px-12 md:py-12 md:justify-start mb-12">
+    
+    <div class="overflow-hidden relative w-full h-[225px] md:w-[385px] md:h-[250px] md:mr-16">
+        <img src="../img/containers/assets/screen-shot-2022-06-23-at-10.53.59-am.png/41d3254db1342802f41ea8fe526f45ff.png" alt="" class="absolute min-h-[101%] min-w-[101%] max-h-[101%] max-w-none
+        object-cover object-center md:max-w-[101%]" />
+    </div>
+
+    <div class="flex flex-col md:max-w-[408px] px-4 pt-4 pb-9 md:p-0 md:ml-5">
+        <h3 class="text-themeBrown pb-4 md:pb-9">Sunset Youth Services</h3>
+
+        
+        <p class="text-themeBrown tabletRegular">The mission of Sunset Youth Services is to foster long-term stability and growth in in-risk* youth, young adults, and families through caring relationships and supportive services. This goal is based on the simple belief that youth are inherently worthy of dignity and respect and have the potential to positively contribute to their communities when their real needs are met.</p>
+          
+
+        
+        <a href="https://www.sunsetyouthservices.org/" target="_blank">
+            <div class="max-w-max wiggle-link text-themeOrange tabletBold uppercase pt-4 pb-2">
+                LEARN MORE
+            </div>
+        </a>
+
+        
+          
+    </div>
+    
+</div>  <div class="bg-themeCream border border-themeBrown flex flex-col md:flex-row md:px-12 md:py-12 md:justify-start mb-12">
+    
+    <div class="overflow-hidden relative w-full h-[225px] md:w-[385px] md:h-[250px] md:mr-16">
+        <img src="../img/containers/assets/screen-shot-2022-06-23-at-10.54.31-am.png/049b642e4bd95e0b5f803a6375db4744.png" alt="" class="absolute min-h-[101%] min-w-[101%] max-h-[101%] max-w-none
+        object-cover object-center md:max-w-[101%]" />
+    </div>
+
+    <div class="flex flex-col md:max-w-[408px] px-4 pt-4 pb-9 md:p-0 md:ml-5">
+        <h3 class="text-themeBrown pb-4 md:pb-9">Surfrider Foundation</h3>
+
+        
+        <p class="text-themeBrown tabletRegular">The San Francisco Surfrider Foundation is dedicated to the protection and enjoyment of the world’s ocean, waves and beaches, for all people, through a powerful activist network. We are a volunteer-run, non-profit organization consisting of a diverse group of activists, researchers, and dedicated Bay Area community members. We work at the local, state, and federal levels to protect and enjoy the places we love.</p>
+          
+
+        
+        <a href="https://www.surfrider.org/" target="_blank">
+            <div class="max-w-max wiggle-link text-themeOrange tabletBold uppercase pt-4 pb-2">
+                LEARN MORE
+            </div>
+        </a>
+
+        
+          
+    </div>
+    
+</div>  <div class="bg-themeCream border border-themeBrown flex flex-col md:flex-row md:px-12 md:py-12 md:justify-start mb-12">
+    
+    <div class="overflow-hidden relative w-full h-[225px] md:w-[385px] md:h-[250px] md:mr-16">
+        <img src="../img/containers/assets/screen-shot-2022-06-23-at-10.55.32-am.png/e461ef7656a60990c0fd9b8718abe338.png" alt="" class="absolute min-h-[101%] min-w-[101%] max-h-[101%] max-w-none
+        object-cover object-center md:max-w-[101%]" />
+    </div>
+
+    <div class="flex flex-col md:max-w-[408px] px-4 pt-4 pb-9 md:p-0 md:ml-5">
+        <h3 class="text-themeBrown pb-4 md:pb-9">To Write Love On Her Arms</h3>
+
+        
+        <p class="text-themeBrown tabletRegular">To Write Love on Her Arms is a non-profit movement dedicated to presenting hope and finding help for people struggling with depression, addiction, self-injury, and suicide. TWLOHA exists to encourage, inform, inspire, and also to invest directly into treatment and recovery.</p>
+          
+
+        
+        <a href="https://twloha.com/" target="_blank">
+            <div class="max-w-max wiggle-link text-themeOrange tabletBold uppercase pt-4 pb-2">
+                LEARN MORE
+            </div>
+        </a>
+
+        
+          
+    </div>
+    
+</div>  <div class="bg-themeCream border border-themeBrown flex flex-col md:flex-row md:px-12 md:py-12 md:justify-start mb-12">
+    
+    <div class="overflow-hidden relative w-full h-[225px] md:w-[385px] md:h-[250px] md:mr-16">
+        <img src="../img/containers/assets/screen-shot-2022-06-23-at-10.56.05-am.png/aaafee22806c5bec66a6a59c6c658b1a.png" alt="" class="absolute min-h-[101%] min-w-[101%] max-h-[101%] max-w-none
+        object-cover object-center md:max-w-[101%]" />
+    </div>
+
+    <div class="flex flex-col md:max-w-[408px] px-4 pt-4 pb-9 md:p-0 md:ml-5">
+        <h3 class="text-themeBrown pb-4 md:pb-9">Western Neighborhoods Project</h3>
+
+        
+        <p class="text-themeBrown tabletRegular">Western Neighborhoods Project is a nonprofit that has preserved, interpreted and shared the diverse history and culture of San Francisco's west side since 1999. In support of this work, they also manage the OpenSFHistory program which safeguards, digitizes, and makes available online thousands of historical San Francisco images.</p>
+          
+
+        
+        <a href="https://www.outsidelands.org/" target="_blank">
+            <div class="max-w-max wiggle-link text-themeOrange tabletBold uppercase pt-4 pb-2">
+                LEARN MORE
+            </div>
+        </a>
+
+        
+          
+    </div>
+    
+</div>  <div class="bg-themeCream border border-themeBrown flex flex-col md:flex-row md:px-12 md:py-12 md:justify-start mb-12">
+    
+    <div class="overflow-hidden relative w-full h-[225px] md:w-[385px] md:h-[250px] md:mr-16">
+        <img src="../img/containers/assets/screen-shot-2022-06-23-at-10.56.57-am.png/bfd10da259b84ec242824a7f2057595d.png" alt="" class="absolute min-h-[101%] min-w-[101%] max-h-[101%] max-w-none
+        object-cover object-center md:max-w-[101%]" />
+    </div>
+
+    <div class="flex flex-col md:max-w-[408px] px-4 pt-4 pb-9 md:p-0 md:ml-5">
+        <h3 class="text-themeBrown pb-4 md:pb-9">When The Music Stops</h3>
+
+        
+        <p class="text-themeBrown tabletRegular">When The Music Stops is a nonprofit and community that supports emotional and mental health through music, connection, and love.</p>
+          
+
+        
+        <a href="https://whenthemusicstops.org/" target="_blank">
+            <div class="max-w-max wiggle-link text-themeOrange tabletBold uppercase pt-4 pb-2">
+                LEARN MORE
+            </div>
+        </a>
+
+        
+          
+    </div>
+    
+</div>  <div class="bg-themeCream border border-themeBrown flex flex-col md:flex-row md:px-12 md:py-12 md:justify-start mb-12">
+    
+    <div class="overflow-hidden relative w-full h-[225px] md:w-[385px] md:h-[250px] md:mr-16">
+        <img src="../img/containers/assets/screen-shot-2022-06-23-at-10.57.22-am.png/c887eff029cd8c70c3e8eddfa0f90dfe.png" alt="" class="absolute min-h-[101%] min-w-[101%] max-h-[101%] max-w-none
+        object-cover object-center md:max-w-[101%]" />
+    </div>
+
+    <div class="flex flex-col md:max-w-[408px] px-4 pt-4 pb-9 md:p-0 md:ml-5">
+        <h3 class="text-themeBrown pb-4 md:pb-9">Youth Art Exchange</h3>
+
+        
+        <p class="text-themeBrown tabletRegular">Youth Art Exchange sparks a shared creative practice between professional artists and public high school students, furthering youth as leaders, thinkers, and artists in San Francisco.</p>
+          
+
+        
+        <a href="https://www.youthartexchange.org/" target="_blank">
+            <div class="max-w-max wiggle-link text-themeOrange tabletBold uppercase pt-4 pb-2">
+                LEARN MORE
+            </div>
+        </a>
+
+        
+          
+    </div>
+    
+</div> </div>
+
+         
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+<div>
+    
+    <div class="w-full pt-10"></div>
+    
+</div></div>
+    <div class="w-full"><div class="bg-themeDarkBrown relative px-5 pt-[75px] pb-5 lg:px-[65px] lg:pt-[95px]">
+    <a href="eco-lands.html#top">
+        <div
+            class="flex z-[100] items-center justify-center absolute w-[66px] h-[66px] rounded-full bg-themeBrown border-2 border-cream top-[-33px] right-[20px] lg:right-[53px]">
+            <img class="w-[24px]" src="../assets/static/footerButtonArrow.svg" alt="" />
+        </div>
+    </a>
+    <div class="flex flex-col md:flex-row md:justify-between md:items-center">
+        <img class="w-full md:w-[320px]" src="../assets/outsidelandsTextLogo.svg" alt="" />
+        <div class="grid grid-cols-6 max-w-max pt-6 md:pt-0">
+            
+            <a rel="nofollow" href="https://www.tiktok.com/@sfoutsidelands" target="_blank" class="mr-[15px] md:mr-[19px]">
+                <img class="w-[40px] md:w-[50px]" src="../assets/tikTok.svg" alt="tik tok" />
+            </a>
+            
+            <a rel="nofollow" href="https://www.facebook.com/SFOutsideLands/" target="_blank" class="mr-[15px] md:mr-[19px]">
+                <img class="w-[40px] md:w-[50px]" src="../assets/facebook.svg" alt="facebook" />
+            </a>
+            
+            <a rel="nofollow" href="https://www.instagram.com/outsidelands/?hl=en" target="_blank" class="mr-[15px] md:mr-[19px]">
+                <img class="w-[40px] md:w-[50px]" src="../assets/instagram.svg" alt="Instagram" />
+            </a>
+            
+            <a rel="nofollow" href="https://twitter.com/sfoutsidelands" target="_blank" class="mr-[15px] md:mr-[19px]">
+                <img class="w-[40px] md:w-[50px]" src="../assets/twitter.svg" alt="twitter" />
+            </a>
+            
+            <a rel="nofollow" href="https://www.youtube.com/user/OutsideLands/videos?app=desktop&view=0&sort=dd&shelf_id=0" target="_blank" class="mr-[15px] md:mr-[19px]">
+                <img class="w-[40px] md:w-[50px]" src="../assets/youtube.svg" alt="youtube" />
+            </a>
+            
+            <a rel="nofollow" href="https://www.twitch.tv/sfoutsidelands" target="_blank" class="mr-[15px] md:mr-[19px]">
+                <img class="w-[40px] md:w-[50px]" src="../assets/twitch.svg" alt="twitch" />
+            </a>
+            
+        </div>
+    </div>
+
+    <div
+        class="grid grid-cols-2 py-[53px] md:pt-[46px] md:pb-[40px] lg:pt-[56px] max-w-max lg:pb-[38px] md:grid-cols-3 lg:grid-cols-4">
+         
+        <a rel="nofollow" target="" href="../info.html"
+            class="text-themeCream text-[16px] leading-[145%] tabletBold mb-[23px] last:mb-0 mr-4 md:mr-10">Info</a>
+         
+        <a rel="nofollow" target="" href="../news.html"
+            class="text-themeCream text-[16px] leading-[145%] tabletBold mb-[23px] last:mb-0 mr-4 md:mr-10">News</a>
+         
+        <a rel="nofollow" target="" href="../contact.html"
+            class="text-themeCream text-[16px] leading-[145%] tabletBold mb-[23px] last:mb-0 mr-4 md:mr-10">Contact</a>
+         
+        <a rel="nofollow" target="" href="../premium-experiences/premium-experiences.html"
+            class="text-themeCream text-[16px] leading-[145%] tabletBold mb-[23px] last:mb-0 mr-4 md:mr-10">Premium Experiences</a>
+         
+        <a rel="nofollow" target="" href="../accessibility.html"
+            class="text-themeCream text-[16px] leading-[145%] tabletBold mb-[23px] last:mb-0 mr-4 md:mr-10">Accessibility</a>
+         
+        <a rel="nofollow" target="" href="../lineup.html"
+            class="text-themeCream text-[16px] leading-[145%] tabletBold mb-[23px] last:mb-0 mr-4 md:mr-10">Lineup</a>
+         
+        <a rel="nofollow" target="_blank" href="https://outsidelands.shop.musictoday.com/"
+            class="text-themeCream text-[16px] leading-[145%] tabletBold mb-[23px] last:mb-0 max-w-max mr-4 md:mr-10">Merch</a>
+        
+         
+        <a rel="nofollow" target="" href="../press.html"
+            class="text-themeCream text-[16px] leading-[145%] tabletBold mb-[23px] last:mb-0 mr-4 md:mr-10">Press</a>
+         
+        <a rel="nofollow" target="" href="../311.html"
+            class="text-themeCream text-[16px] leading-[145%] tabletBold mb-[23px] last:mb-0 mr-4 md:mr-10">Neighborhood 311</a>
+         
+        <a rel="nofollow" target="" href="../park-attractions.html"
+            class="text-themeCream text-[16px] leading-[145%] tabletBold mb-[23px] last:mb-0 mr-4 md:mr-10">Park Attractions</a>
+         
+        <a rel="nofollow" target="" href="../partners.html"
+            class="text-themeCream text-[16px] leading-[145%] tabletBold mb-[23px] last:mb-0 mr-4 md:mr-10">Partners</a>
+         
+        <a rel="nofollow" target="" href="../neighborhood.html"
+            class="text-themeCream text-[16px] leading-[145%] tabletBold mb-[23px] last:mb-0 mr-4 md:mr-10">Neighborhoods</a>
+         
+        <a rel="nofollow" target="" href="../experiences.html"
+            class="text-themeCream text-[16px] leading-[145%] tabletBold mb-[23px] last:mb-0 mr-4 md:mr-10">Experiences</a>
+         
+        <a rel="nofollow" target="" href="../schedule.html"
+            class="text-themeCream text-[16px] leading-[145%] tabletBold mb-[23px] last:mb-0 mr-4 md:mr-10">Schedule</a>
+        
+    </div>
+    <div class="w-full flex flex-col md:flex-row md:justify-between">
+        
+        <a rel="nofollow" href="../terms.html"
+            class="underline text-themeCream text-[16px] leading-[145%] tabletRegular pb-[23px] last:mb-0">Terms & Conditions</a>
+        
+        <a rel="nofollow" href="../privacy.html"
+            class="underline text-themeCream text-[16px] leading-[145%] tabletRegular pb-[23px] last:mb-0">Privacy Policy</a>
+        
+    </div>
+    <div class="border-t border-themeDarkYellow pt-[20px]">
+        <div class="flex flex-col-reverse md:flex-row md:justify-between md:items-center">
+            <div class="text-themeDarkYellow text-[12px] tabletBold pt-5 md:pt-0">
+                © 2022 Outside Lands. All rights reserved
+            </div>
+            <div class="flex flex-row items-center justify-between">
+                
+                <a href="https://apeconcerts.com/" target="_blank">
+                    <img alt="Another Planet" class="min-h-[16px] lg:min-h-[27px] md:min-w-[80px] lg:mx-5" src="../assets/sponsor_logos/anotherPlanet.svg" />
+                </a>
+                
+                <a href="https://superf.ly/" target="_blank">
+                    <img alt="Superfly" class="min-h-[16px] lg:min-h-[27px] md:min-w-[80px] lg:mx-5" src="../assets/sponsor_logos/superfly.svg" />
+                </a>
+                
+                <a href="https://starrhillpresents.com/" target="_blank">
+                    <img alt="Star Hill" class="min-h-[16px] lg:min-h-[27px] md:min-w-[80px] lg:mx-5" src="../assets/sponsor_logos/starrHill.svg" />
+                </a>
+                
+            </div>
+        </div>
+    </div>
+</div></div>
+    <script src="../js/site.js%3Fid=bad47918c1b630f4271b5517cb957385"></script>
+    <script src="../js/nav.js%3Fid=d41d8cd98f00b204e9800998ecf8427e"></script>
+</body>
+
+</html>

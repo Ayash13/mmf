@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <link rel="stylesheet" href="css/tailwind.css%3Fid=8717eab0bfebead52d59ecfa77e2f99c.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/xpm2von.css" />
+    <link rel="icon" href="https://sfoutsidelands.com/assets/favicon.ico" />
+
+    <!-- /snippets/_seo.antlers.html -->
+
+<title>
+    
+    Accessibility Info
+    |
+    
+    Outside Lands
+</title>
+
+
+
+    <meta name="description" content="
+    
+        Outside Lands is a 3-Day Festival celebrating music, food, wine, beer, art, cannabis, and everything we love about the Bay Area.
+    
+
+">
+
+
+
+
+    
+
+
+
+
+    
+
+
+
+
+    
+        <link rel="canonical" href="https://staging.sfoutsidelands.com/accessibility">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta property="og:site_name" content="Outside Lands">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+
+    <meta property="og:title" content="Accessibility Info">
+
+
+    <meta property="og:description" content="
+    
+        Outside Lands is a 3-Day Festival celebrating music, food, wine, beer, art, cannabis, and everything we love about the Bay Area.
+    
+
+">
+
+
+
+
+
+
+
+
+    
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-1158508-5"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            window.dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
+
+        gtag("config", "UA-1158508-5");
+    </script>
+</head>
+
+<body class="bg-themeDarkBrown" id="#top">
+    
+        
+        
+    
+
+    <div
+    class="hidden md:flex flex-row justify-end items-center bg-themeDarkBrown min-h-[51px] md:px-[70px]"
+>
+    <div class="flex flex-row items-center">
+        
+        <a
+            class="text-themeCream navigationItem md:mr-[30px] md:last:mr-0 lg:mr-10 lg:last:mr-0"
+            href="https://outsidelands.shop.musictoday.com/"
+            target="_blank"
+            >Merch</a
+        >
+        
+        <a
+            class="text-themeCream navigationItem md:mr-[30px] md:last:mr-0 lg:mr-10 lg:last:mr-0"
+            href="info.html"
+            >Info</a
+        >
+        
+        <a
+            class="text-themeCream navigationItem md:mr-[30px] md:last:mr-0 lg:mr-10 lg:last:mr-0"
+            href="news.html"
+            >News</a
+        >
+        
+        <a
+            class="text-themeCream navigationItem md:mr-[30px] md:last:mr-0 lg:mr-10 lg:last:mr-0"
+            href="get-involved.html"
+            >Get Involved</a
+        >
+        
+    </div>
+</div>
+ <div x-data="{ mobileNavOpen: false }" class="z-[100]">
+    <div id="navigation"
+        class="flex flex-row justify-between items-center w-full bg-white h-[60px] px-5 md:h-[96px] md:px-[58px] lg:px-[65px]">
+        <a href="index.html"><img alt="Outsidelands Logo" src="assets/static/outsidelandsLogo.svg"
+                class="h-[20px] md:h-[23px] lg:h-[37px]" /></a>
+
+        
+        <div class="hidden md:flex md:flex-row md:items-center">
+              
+            <a class="text-themeBrown navigationItem md:mr-[30px] md:last:mr-0 lg:mr-10 lg:last:mr-0"
+                href="lineup.html">Lineup</a>
+                
+            <a class="text-themeBrown navigationItem md:mr-[30px] md:last:mr-0 lg:mr-10 lg:last:mr-0"
+                href="schedule.html">Schedule</a>
+                
+            <a class="text-themeBrown navigationItem md:mr-[30px] md:last:mr-0 lg:mr-10 lg:last:mr-0"
+                href="experiences.html">Experiences</a>
+              
+        </div>
+        <div class="md:hidden">
+            <img @click="mobileNavOpen = true" x-show="mobileNavOpen == false" src="assets/hamburger.svg"
+                class="h-[30px]" />
+            <img @click="mobileNavOpen = false" x-show="mobileNavOpen == true" src="assets/x.svg" class="h-[30px]" />
+        </div>
+
+        
+    </div>
+
+    <div x-show="mobileNavOpen == true"
+        class="z-[-100] absolute top-0 bg-white mt-[60px] w-full flex flex-col items-center text-center py-[33px]"
+        :class="{ 'zHigh': mobileNavOpen }">
+         
+        <a @click="mobileNavOpen = false" class="text-themeBrown navigationItem text-center pb-[30px]"
+            href="lineup.html">Lineup</a>
+          
+        <a @click="mobileNavOpen = false" class="text-themeBrown navigationItem text-center pb-[30px]"
+            href="schedule.html">Schedule</a>
+          
+        <a @click="mobileNavOpen = false" class="text-themeBrown navigationItem text-center pb-[30px]"
+            href="experiences.html">Experiences</a>
+         
+
+        <div class="mt-[40px] flex flex-col items-center">
+            
+            <a @click="mobileNavOpen = false" class="text-themeBrown navigationItem text-center pb-[30px]"
+                href="https://outsidelands.shop.musictoday.com/">Merch</a>
+            <a @click="mobileNavOpen = false" class="text-themeBrown navigationItem text-center pb-[30px]"
+                href="info.html">Info</a>
+            <a @click="mobileNavOpen = false" class="text-themeBrown navigationItem text-center pb-[30px]"
+                href="news.html">News</a>
+            <a @click="mobileNavOpen = false" class="text-themeBrown navigationItem text-center pb-[30px]"
+                href="get-involved.html">Get Involved</a>
+        </div>
+    </div>
+</div>
+    <div class=""><!-- Global site tag (gtag.js) - Google Ads -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-775108436"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "AW-775108436");
+</script>
+
+<script> !function (f, b, e, v, n, t, s) { if (f.fbq) return; n = f.fbq = function () { n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments) }; if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0'; n.queue = []; t = b.createElement(e); t.async = !0; t.src = v; s = b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s) }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js'); fbq('init', '436353953396572'); fbq('track', 'PageView'); </script>
+
+<script>
+    !(function (w, d, t) {
+        w.TiktokAnalyticsObject = t;
+        var ttq = (w[t] = w[t] || []);
+        (ttq.methods = [
+            "page",
+            "track",
+            "identify",
+            "instances",
+            "debug",
+            "on",
+            "off",
+            "once",
+            "ready",
+            "alias",
+            "group",
+            "enableCookie",
+            "disableCookie",
+        ]),
+            (ttq.setAndDefer = function (t, e) {
+                t[e] = function () {
+                    t.push(
+                        [e].concat(Array.prototype.slice.call(arguments, 0))
+                    );
+                };
+            });
+        for (var i = 0; i < ttq.methods.length; i++)
+            ttq.setAndDefer(ttq, ttq.methods[i]);
+        (ttq.instance = function (t) {
+            for (var e = ttq._i[t] || [], n = 0; n < ttq.methods.length; n++)
+                ttq.setAndDefer(e, ttq.methods[n]);
+            return e;
+        }),
+            (ttq.load = function (e, n) {
+                var i = "https://analytics.tiktok.com/i18n/pixel/events.js";
+                (ttq._i = ttq._i || {}),
+                    (ttq._i[e] = []),
+                    (ttq._i[e]._u = i),
+                    (ttq._t = ttq._t || {}),
+                    (ttq._t[e] = +new Date()),
+                    (ttq._o = ttq._o || {}),
+                    (ttq._o[e] = n || {});
+                n = document.createElement("script");
+                (n.type = "text/javascript"),
+                    (n.async = !0),
+                    (n.src = i + "?sdkid=" + e + "&lib=" + t);
+                e = document.getElementsByTagName("script")[0];
+                e.parentNode.insertBefore(n, e);
+            });
+
+        ttq.load("C9BK03JC77U6S6FSA9NG");
+        ttq.page();
+    })(window, document, "ttq");
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<div class="w-full"><div class="w-full px-7 py-7 bg-themeBlue md:py-12">
+    <div class="max-w-[1230px] mx-auto">
+        
+        
+        
+
+        <div class="flex flex-col pt-3 md:pt-5 md:flex-row md:items-center">
+            
+            <img src="assets/experience_icons/Icon.svg" alt="" class="mb-5 w-[45px] h-[45px] md:w-[55px] md:h-[55px] md:mr-4 md:mb-0" />
+            
+            <h1 class="textBorder text-themeCream">Accessibility Info</h1>
+        </div>
+    </div>
+</div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="w-full"><div class="bg-themeYellow px-7 pt-5 pb-6 md:pt-32 md:pb-32">
+    <div class="relative max-w-[1180px] m-auto flex flex-col-reverse lg:flex-row lg:justify-between lg:items-center">
+
+
+        
+        <div class="pt-5 w-full lg:max-w-[450px] lg:mr-10 lg:pt-0">
+    <h3 class="text-themeOrange textBorder pb-6 text-[22px] lg:text-[38px]">
+        Accessibility at Outside Lands
+    </h3>
+
+    <div class="text-themeBrown">
+        
+        <h4 class="pb-6">The following information should answer questions regarding accessibility at Outside Lands.</h4>
+        
+        
+        <div
+            class="bard-content w-full max-w-none prose prose-p:text-themeBrown prose-strong:text-themeBrown prose-a:text-themeBrown prose-p:text-[16px] prose-p:tabletRegular">
+            
+            
+            <p>For more information or special requests, please contact us via email at <a href="mailto:access@sfoutsidelands.com"><strong>access@sfoutsidelands.com</strong></a>. If you are requesting a Sign Language interpreter, please make your requests at least 30 days in advance of the festival dates to ensure availability and to allow for adequate preparation. We will attempt to arrange an interpreter on shorter notice, but cannot guarantee availability.</p>
+            
+            
+            
+        </div>
+        
+    </div>
+
+    
+</div>
+        
+
+        
+        <div class="relative">
+             <img src="img/containers/assets/accessibility-hero-image-1657641107.jpeg/211e32e06872b07c1e8678dfe81f9282.jpeg" alt="" class="w-full lg:max-w-[530px]" /> 
+        </div>
+        
+    </div>
+</div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="w-full"><div class="bg-themeCream">
+    <div class="px-7 py-10 md:pt-20 md:pb-28">
+        <div class="max-w-[1088px] mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-y-10">
+                
+
+                <div class="max-w-[450px]">
+                    <h2 class="textBorder text-themeGreen pb-4">Access Center</h2>
+                    <div
+                        class="bard-content w-full max-w-none prose prose-p:text-themeBrown marker:text-themeBrown prose-p:text-[18px] prose-p:tabletRegular prose-a:tabletRegular prose-a:no-underline prose-a:text-[18px] prose-a:text-themeBlue prose-a:font-extrabold prose-strong:text-themeBrown prose-h3:text-themeBrown prose-h4:text-themeBrown prose-ul:text-themeBrown prose-ul:list-disc prose-ul:pb-4 prose-li:text-[18px]">
+                        <p>The Access Center is your one stop shop for all things accessibility.  We are staffed from opening gates to the end of the night.  At the Access Center you can get information and questions answered about our Accessibility Program, get a wristband that grants access to the ADA viewing platforms and golf cart shuttles. You can also charge your power wheelchair or scooter, or borrow an assistive listening device. If you have a specific need or accommodation request, Access Center staff can assist you. The Access Center is located just inside the ADA entrance at 36th Ave and JFK Drive. If you are coming from the Polo Field, please head through the North Tunnel, go to your left and follow the paved path towards JFK Drive. The Access Center will be on your right.</p>
+                    </div>
+                </div>
+
+                
+
+                <div class="max-w-[450px]">
+                    <h2 class="textBorder text-themeGreen pb-4">Festival Grounds</h2>
+                    <div
+                        class="bard-content w-full max-w-none prose prose-p:text-themeBrown marker:text-themeBrown prose-p:text-[18px] prose-p:tabletRegular prose-a:tabletRegular prose-a:no-underline prose-a:text-[18px] prose-a:text-themeBlue prose-a:font-extrabold prose-strong:text-themeBrown prose-h3:text-themeBrown prose-h4:text-themeBrown prose-ul:text-themeBrown prose-ul:list-disc prose-ul:pb-4 prose-li:text-[18px]">
+                        <p>Outside Lands takes place in beautiful Golden Gate Park.   As with any outdoor setting, you will encounter various types of terrain.  At Outside Lands that includes sandy pathways, uneven dirt roads, paved roads, and grassy fields. You may find the occasional tree root or pothole.  Outside Lands is a large site.  So please, plan accordingly as there are some distances to be covered to get to all of the areas and stages on the site.</p>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+    </div>
+</div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="w-full"><div
+    class="relative bg-themeBlue px-7 pt-10 pb-20 md:pt-24  md:pb-56"
+>
+    <div class="max-w-[1010px] mx-auto relative">
+         
+        <h2
+            class="w-full text-center text-themeCream textBorder pb-7 md:pb-16"
+        >
+            Entering the Festival
+        </h2>
+
+        <div class="flex flex-col"> <div class="bg-themeCream border border-themeBrown flex flex-col md:flex-row md:px-12 md:py-12 md:justify-start mb-12">
+    
+    <div class="flex flex-col px-4 pt-4 pb-9 md:p-0 md:ml-5">
+        <h3 class="text-themeBrown pb-4 md:pb-9">ADA Entrance:</h3>
+
+        <p class="text-themeBrown tabletRegular">While all entrances are accessible, we strongly encourage guests with disabilities and injuries to enter through the designated ADA entrance at 36th and JFK. The Access Center  is just inside this entrance, here you will find accessibility information and can request a golf cart shuttle. The entrance at 36th and JFK Drive has a limited amount of accessible parking.</p>
+
+         
+    </div>
+    
+</div>  <div class="bg-themeCream border border-themeBrown flex flex-col md:flex-row md:px-12 md:py-12 md:justify-start mb-12">
+    
+    <div class="flex flex-col px-4 pt-4 pb-9 md:p-0 md:ml-5">
+        <h3 class="text-themeBrown pb-4 md:pb-9">ADA Parking:</h3>
+
+        <p class="text-themeBrown tabletRegular">There is a very limited amount of ADA parking available on a first come, first served basis.  To access this parking, please enter the park at 36th Ave and  Fulton, and let the gate agents know you are using the ADA Parking. Some of the ADA parking is located on a road with uneven terrain, or may be the equivalent of several blocks from the ADA entrance. If you would like a golf cart pick up, please notify the parking staff, so they can request an ADA shuttle to take you the entrance gate.</p>
+
+         
+    </div>
+    
+</div>  <div class="bg-themeCream border border-themeBrown flex flex-col md:flex-row md:px-12 md:py-12 md:justify-start mb-12">
+    
+    <div class="flex flex-col px-4 pt-4 pb-9 md:p-0 md:ml-5">
+        <h3 class="text-themeBrown pb-4 md:pb-9">Drop Off / Pick Up:</h3>
+
+        <p class="text-themeBrown tabletRegular">Patrons with disabilities wishing to be dropped off or picked up at the festival must enter the park at 36th and Fulton and will be directed to the Access Entrance to the festival on 36th and JFK.  Please look for the sign with the wheelchair symbol and stop there to talk with event staff and indicate the need for a drop-off or pick up at the Access Entrance to the festival at 36th and JFK.</p>
+
+         
+    </div>
+    
+</div>  <div class="bg-themeCream border border-themeBrown flex flex-col md:flex-row md:px-12 md:py-12 md:justify-start mb-12">
+    
+    <div class="flex flex-col px-4 pt-4 pb-9 md:p-0 md:ml-5">
+        <h3 class="text-themeBrown pb-4 md:pb-9">Ride Shares:</h3>
+
+        <p class="text-themeBrown tabletRegular">If you are travelling to the festival via rideshare, please let your driver know that you need to be dropped off at the ADA Drop Off inside the park on JFK Drive. The driver will need to enter the park at 36th Ave and Fulton and inform the staff that they are dropping off at the ADA entrance. Please note the pick-up location for ride shares is located several up-hill blocks outside of the park.  We may be able to offer transportation to the pick-up for a very limited number of folks. For more information, please speak to the staff at the Access Center.</p>
+
+         
+    </div>
+    
+</div> </div>
+
+         
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="w-full"><div class="bg-themeCream">
+    <div class="px-7 py-10 md:pt-20 md:pb-28">
+        <div class="max-w-[1088px] mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-y-10">
+                
+
+                <div class="max-w-[450px]">
+                    <h2 class="textBorder text-themeGreen pb-4">Accessible Viewing Platforms</h2>
+                    <div
+                        class="bard-content w-full max-w-none prose prose-p:text-themeBrown marker:text-themeBrown prose-p:text-[18px] prose-p:tabletRegular prose-a:tabletRegular prose-a:no-underline prose-a:text-[18px] prose-a:text-themeBlue prose-a:font-extrabold prose-strong:text-themeBrown prose-h3:text-themeBrown prose-h4:text-themeBrown prose-ul:text-themeBrown prose-ul:list-disc prose-ul:pb-4 prose-li:text-[18px]">
+                        <p>Outside Lands provides elevated Accessible Viewing Platforms at the Sutro, Twin Peaks and Lands End stages.  These accessible viewing platforms are for guests who use wheelchairs, have significant mobility disabilities, or who have difficulty standing for long periods of time.  Banquet style folding chairs are available at all viewing platforms.  Staff will manage the viewing platform accordingly to ensure all patrons are comfortable during busy times.</p>
+                    </div>
+                </div>
+
+                
+
+                <div class="max-w-[450px]">
+                    <h2 class="textBorder text-themeGreen pb-4">Accessible Restrooms</h2>
+                    <div
+                        class="bard-content w-full max-w-none prose prose-p:text-themeBrown marker:text-themeBrown prose-p:text-[18px] prose-p:tabletRegular prose-a:tabletRegular prose-a:no-underline prose-a:text-[18px] prose-a:text-themeBlue prose-a:font-extrabold prose-strong:text-themeBrown prose-h3:text-themeBrown prose-h4:text-themeBrown prose-ul:text-themeBrown prose-ul:list-disc prose-ul:pb-4 prose-li:text-[18px]">
+                        <p>Accessible restrooms are conveniently located next to all ADA viewing platforms.  All restroom areas have a number of accessible toilets on either end. </p>
+                    </div>
+                </div>
+
+                
+
+                <div class="max-w-[450px]">
+                    <h2 class="textBorder text-themeGreen pb-4">Golf Carts</h2>
+                    <div
+                        class="bard-content w-full max-w-none prose prose-p:text-themeBrown marker:text-themeBrown prose-p:text-[18px] prose-p:tabletRegular prose-a:tabletRegular prose-a:no-underline prose-a:text-[18px] prose-a:text-themeBlue prose-a:font-extrabold prose-strong:text-themeBrown prose-h3:text-themeBrown prose-h4:text-themeBrown prose-ul:text-themeBrown prose-ul:list-disc prose-ul:pb-4 prose-li:text-[18px]">
+                        <p>We have a golf cart shuttle system to get patrons with mobility impairments around the festival.  Our golf carts travel to and from the accessible viewing platforms, the access center, from inside the festival entrances, and a few other locations throughout the festival.  <strong>Please note that shuttles are by request only</strong>, so please notify staff at the platforms, gates and elsewhere that you need to request a pick up.  There is a high demand for shuttles so we limit capacity to our disabled patrons plus one companion. We work as efficiently as possible, but there is a limited number of shuttles, so please expect a wait, and plan your requests accordingly. </p><p>For patrons with mobility disabilities coming to Outside Lands via shuttle, please notify festival staff upon entering the festival that you require an ADA assistance and a golf cart shuttle will be dispatched to pick you up.  </p>
+                    </div>
+                </div>
+
+                
+
+                <div class="max-w-[450px]">
+                    <h2 class="textBorder text-themeGreen pb-4">Prescription Medicines and Special Dietary Needs</h2>
+                    <div
+                        class="bard-content w-full max-w-none prose prose-p:text-themeBrown marker:text-themeBrown prose-p:text-[18px] prose-p:tabletRegular prose-a:tabletRegular prose-a:no-underline prose-a:text-[18px] prose-a:text-themeBlue prose-a:font-extrabold prose-strong:text-themeBrown prose-h3:text-themeBrown prose-h4:text-themeBrown prose-ul:text-themeBrown prose-ul:list-disc prose-ul:pb-4 prose-li:text-[18px]">
+                        <p>All prescriptions must have a prescription label. Your photo ID must match the name on the prescription label.  </p><p>If a patron has special medical dietary restrictions, a personal amount of food will be allowed in if accompanied by a doctor’s note. Please contact  <a href="mailto:access@sfoutsidelands.com">access@sfoutsidelands.com</a> with any questions or concerns.</p>
+                    </div>
+                </div>
+
+                
+
+                <div class="max-w-[450px]">
+                    <h2 class="textBorder text-themeGreen pb-4">Interpreting Services</h2>
+                    <div
+                        class="bard-content w-full max-w-none prose prose-p:text-themeBrown marker:text-themeBrown prose-p:text-[18px] prose-p:tabletRegular prose-a:tabletRegular prose-a:no-underline prose-a:text-[18px] prose-a:text-themeBlue prose-a:font-extrabold prose-strong:text-themeBrown prose-h3:text-themeBrown prose-h4:text-themeBrown prose-ul:text-themeBrown prose-ul:list-disc prose-ul:pb-4 prose-li:text-[18px]">
+                        <p>Please make your requests as early as possible, and no later than 4 weeks prior to Outside Lands.  Send your request to  <a href="mailto:access@sfoutsidelands.com">access@sfoutsidelands.com</a>. We will do our best to answer requests within 4 weeks, but are unable to make any guarantee.</p>
+                    </div>
+                </div>
+
+                
+
+                <div class="max-w-[450px]">
+                    <h2 class="textBorder text-themeGreen pb-4">Service Animals</h2>
+                    <div
+                        class="bard-content w-full max-w-none prose prose-p:text-themeBrown marker:text-themeBrown prose-p:text-[18px] prose-p:tabletRegular prose-a:tabletRegular prose-a:no-underline prose-a:text-[18px] prose-a:text-themeBlue prose-a:font-extrabold prose-strong:text-themeBrown prose-h3:text-themeBrown prose-h4:text-themeBrown prose-ul:text-themeBrown prose-ul:list-disc prose-ul:pb-4 prose-li:text-[18px]">
+                        <p>Outside Lands is happy to host all trained service animals. Other animals will not be permitted into the festival. We request that you enter the festival through the ADA entrance at 36th Ave and JFK Drive, and once inside, stop by the AccessCenter so we can provide a collar tag for your animal.</p>
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+    </div>
+</div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+    <div class="w-full"><div class="bg-themeDarkBrown relative px-5 pt-[75px] pb-5 lg:px-[65px] lg:pt-[95px]">
+    <a href="accessibility.html#top">
+        <div
+            class="flex z-[100] items-center justify-center absolute w-[66px] h-[66px] rounded-full bg-themeBrown border-2 border-cream top-[-33px] right-[20px] lg:right-[53px]">
+            <img class="w-[24px]" src="assets/static/footerButtonArrow.svg" alt="" />
+        </div>
+    </a>
+    <div class="flex flex-col md:flex-row md:justify-between md:items-center">
+        <img class="w-full md:w-[320px]" src="assets/outsidelandsTextLogo.svg" alt="" />
+        <div class="grid grid-cols-6 max-w-max pt-6 md:pt-0">
+            
+            <a rel="nofollow" href="https://www.tiktok.com/@sfoutsidelands" target="_blank" class="mr-[15px] md:mr-[19px]">
+                <img class="w-[40px] md:w-[50px]" src="assets/tikTok.svg" alt="tik tok" />
+            </a>
+            
+            <a rel="nofollow" href="https://www.facebook.com/SFOutsideLands/" target="_blank" class="mr-[15px] md:mr-[19px]">
+                <img class="w-[40px] md:w-[50px]" src="assets/facebook.svg" alt="facebook" />
+            </a>
+            
+            <a rel="nofollow" href="https://www.instagram.com/outsidelands/?hl=en" target="_blank" class="mr-[15px] md:mr-[19px]">
+                <img class="w-[40px] md:w-[50px]" src="assets/instagram.svg" alt="Instagram" />
+            </a>
+            
+            <a rel="nofollow" href="https://twitter.com/sfoutsidelands" target="_blank" class="mr-[15px] md:mr-[19px]">
+                <img class="w-[40px] md:w-[50px]" src="assets/twitter.svg" alt="twitter" />
+            </a>
+            
+            <a rel="nofollow" href="https://www.youtube.com/user/OutsideLands/videos?app=desktop&view=0&sort=dd&shelf_id=0" target="_blank" class="mr-[15px] md:mr-[19px]">
+                <img class="w-[40px] md:w-[50px]" src="assets/youtube.svg" alt="youtube" />
+            </a>
+            
+            <a rel="nofollow" href="https://www.twitch.tv/sfoutsidelands" target="_blank" class="mr-[15px] md:mr-[19px]">
+                <img class="w-[40px] md:w-[50px]" src="assets/twitch.svg" alt="twitch" />
+            </a>
+            
+        </div>
+    </div>
+
+    <div
+        class="grid grid-cols-2 py-[53px] md:pt-[46px] md:pb-[40px] lg:pt-[56px] max-w-max lg:pb-[38px] md:grid-cols-3 lg:grid-cols-4">
+         
+        <a rel="nofollow" target="" href="info.html"
+            class="text-themeCream text-[16px] leading-[145%] tabletBold mb-[23px] last:mb-0 mr-4 md:mr-10">Info</a>
+         
+        <a rel="nofollow" target="" href="news.html"
+            class="text-themeCream text-[16px] leading-[145%] tabletBold mb-[23px] last:mb-0 mr-4 md:mr-10">News</a>
+         
+        <a rel="nofollow" target="" href="contact.html"
+            class="text-themeCream text-[16px] leading-[145%] tabletBold mb-[23px] last:mb-0 mr-4 md:mr-10">Contact</a>
+         
+        <a rel="nofollow" target="" href="premium-experiences/premium-experiences.html"
+            class="text-themeCream text-[16px] leading-[145%] tabletBold mb-[23px] last:mb-0 mr-4 md:mr-10">Premium Experiences</a>
+         
+        <a rel="nofollow" target="" href="accessibility.html"
+            class="text-themeCream text-[16px] leading-[145%] tabletBold mb-[23px] last:mb-0 mr-4 md:mr-10">Accessibility</a>
+         
+        <a rel="nofollow" target="" href="lineup.html"
+            class="text-themeCream text-[16px] leading-[145%] tabletBold mb-[23px] last:mb-0 mr-4 md:mr-10">Lineup</a>
+         
+        <a rel="nofollow" target="_blank" href="https://outsidelands.shop.musictoday.com/"
+            class="text-themeCream text-[16px] leading-[145%] tabletBold mb-[23px] last:mb-0 max-w-max mr-4 md:mr-10">Merch</a>
+        
+         
+        <a rel="nofollow" target="" href="press.html"
+            class="text-themeCream text-[16px] leading-[145%] tabletBold mb-[23px] last:mb-0 mr-4 md:mr-10">Press</a>
+         
+        <a rel="nofollow" target="" href="311.html"
+            class="text-themeCream text-[16px] leading-[145%] tabletBold mb-[23px] last:mb-0 mr-4 md:mr-10">Neighborhood 311</a>
+         
+        <a rel="nofollow" target="" href="park-attractions.html"
+            class="text-themeCream text-[16px] leading-[145%] tabletBold mb-[23px] last:mb-0 mr-4 md:mr-10">Park Attractions</a>
+         
+        <a rel="nofollow" target="" href="partners.html"
+            class="text-themeCream text-[16px] leading-[145%] tabletBold mb-[23px] last:mb-0 mr-4 md:mr-10">Partners</a>
+         
+        <a rel="nofollow" target="" href="neighborhood.html"
+            class="text-themeCream text-[16px] leading-[145%] tabletBold mb-[23px] last:mb-0 mr-4 md:mr-10">Neighborhoods</a>
+         
+        <a rel="nofollow" target="" href="experiences.html"
+            class="text-themeCream text-[16px] leading-[145%] tabletBold mb-[23px] last:mb-0 mr-4 md:mr-10">Experiences</a>
+         
+        <a rel="nofollow" target="" href="schedule.html"
+            class="text-themeCream text-[16px] leading-[145%] tabletBold mb-[23px] last:mb-0 mr-4 md:mr-10">Schedule</a>
+        
+    </div>
+    <div class="w-full flex flex-col md:flex-row md:justify-between">
+        
+        <a rel="nofollow" href="terms.html"
+            class="underline text-themeCream text-[16px] leading-[145%] tabletRegular pb-[23px] last:mb-0">Terms & Conditions</a>
+        
+        <a rel="nofollow" href="privacy.html"
+            class="underline text-themeCream text-[16px] leading-[145%] tabletRegular pb-[23px] last:mb-0">Privacy Policy</a>
+        
+    </div>
+    <div class="border-t border-themeDarkYellow pt-[20px]">
+        <div class="flex flex-col-reverse md:flex-row md:justify-between md:items-center">
+            <div class="text-themeDarkYellow text-[12px] tabletBold pt-5 md:pt-0">
+                © 2022 Outside Lands. All rights reserved
+            </div>
+            <div class="flex flex-row items-center justify-between">
+                
+                <a href="https://apeconcerts.com/" target="_blank">
+                    <img alt="Another Planet" class="min-h-[16px] lg:min-h-[27px] md:min-w-[80px] lg:mx-5" src="assets/sponsor_logos/anotherPlanet.svg" />
+                </a>
+                
+                <a href="https://superf.ly/" target="_blank">
+                    <img alt="Superfly" class="min-h-[16px] lg:min-h-[27px] md:min-w-[80px] lg:mx-5" src="assets/sponsor_logos/superfly.svg" />
+                </a>
+                
+                <a href="https://starrhillpresents.com/" target="_blank">
+                    <img alt="Star Hill" class="min-h-[16px] lg:min-h-[27px] md:min-w-[80px] lg:mx-5" src="assets/sponsor_logos/starrHill.svg" />
+                </a>
+                
+            </div>
+        </div>
+    </div>
+</div></div>
+    <script src="js/site.js%3Fid=bad47918c1b630f4271b5517cb957385"></script>
+    <script src="js/nav.js%3Fid=d41d8cd98f00b204e9800998ecf8427e"></script>
+</body>
+
+</html>

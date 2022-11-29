@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <link rel="stylesheet" href="../css/tailwind.css%3Fid=8717eab0bfebead52d59ecfa77e2f99c.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/xpm2von.css" />
+    <link rel="icon" href="https://sfoutsidelands.com/assets/favicon.ico" />
+
+    <!-- /snippets/_seo.antlers.html -->
+
+<title>
+    
+    Outsider Art
+    |
+    
+    Outside Lands
+</title>
+
+
+
+    <meta name="description" content="
+">
+
+
+
+
+    
+
+
+
+
+    
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta property="og:site_name" content="Outside Lands">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+
+    <meta property="og:title" content="Outsider Art">
+
+
+    <meta property="og:description" content="
+">
+
+
+
+
+
+
+
+
+    
+    
+
+    
+    
+
+    
+
+    
+
+    
+
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-1158508-5"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            window.dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
+
+        gtag("config", "UA-1158508-5");
+    </script>
+</head>
+
+<body class="bg-themeDarkBrown" id="#top">
+    
+        
+        
+    
+
+    <div
+    class="hidden md:flex flex-row justify-end items-center bg-themeDarkBrown min-h-[51px] md:px-[70px]"
+>
+    <div class="flex flex-row items-center">
+        
+        <a
+            class="text-themeCream navigationItem md:mr-[30px] md:last:mr-0 lg:mr-10 lg:last:mr-0"
+            href="https://outsidelands.shop.musictoday.com/"
+            target="_blank"
+            >Merch</a
+        >
+        
+        <a
+            class="text-themeCream navigationItem md:mr-[30px] md:last:mr-0 lg:mr-10 lg:last:mr-0"
+            href="../info.html"
+            >Info</a
+        >
+        
+        <a
+            class="text-themeCream navigationItem md:mr-[30px] md:last:mr-0 lg:mr-10 lg:last:mr-0"
+            href="../news.html"
+            >News</a
+        >
+        
+        <a
+            class="text-themeCream navigationItem md:mr-[30px] md:last:mr-0 lg:mr-10 lg:last:mr-0"
+            href="../get-involved.html"
+            >Get Involved</a
+        >
+        
+    </div>
+</div>
+ <div x-data="{ mobileNavOpen: false }" class="z-[100]">
+    <div id="navigation"
+        class="flex flex-row justify-between items-center w-full bg-white h-[60px] px-5 md:h-[96px] md:px-[58px] lg:px-[65px]">
+        <a href="../index.html"><img alt="Outsidelands Logo" src="../assets/static/outsidelandsLogo.svg"
+                class="h-[20px] md:h-[23px] lg:h-[37px]" /></a>
+
+        
+        <div class="hidden md:flex md:flex-row md:items-center">
+              
+            <a class="text-themeBrown navigationItem md:mr-[30px] md:last:mr-0 lg:mr-10 lg:last:mr-0"
+                href="../lineup.html">Lineup</a>
+                
+            <a class="text-themeBrown navigationItem md:mr-[30px] md:last:mr-0 lg:mr-10 lg:last:mr-0"
+                href="../schedule.html">Schedule</a>
+                
+            <a class="text-themeBrown navigationItem md:mr-[30px] md:last:mr-0 lg:mr-10 lg:last:mr-0"
+                href="../experiences.html">Experiences</a>
+              
+        </div>
+        <div class="md:hidden">
+            <img @click="mobileNavOpen = true" x-show="mobileNavOpen == false" src="../assets/hamburger.svg"
+                class="h-[30px]" />
+            <img @click="mobileNavOpen = false" x-show="mobileNavOpen == true" src="../assets/x.svg" class="h-[30px]" />
+        </div>
+
+        
+    </div>
+
+    <div x-show="mobileNavOpen == true"
+        class="z-[-100] absolute top-0 bg-white mt-[60px] w-full flex flex-col items-center text-center py-[33px]"
+        :class="{ 'zHigh': mobileNavOpen }">
+         
+        <a @click="mobileNavOpen = false" class="text-themeBrown navigationItem text-center pb-[30px]"
+            href="../lineup.html">Lineup</a>
+          
+        <a @click="mobileNavOpen = false" class="text-themeBrown navigationItem text-center pb-[30px]"
+            href="../schedule.html">Schedule</a>
+          
+        <a @click="mobileNavOpen = false" class="text-themeBrown navigationItem text-center pb-[30px]"
+            href="../experiences.html">Experiences</a>
+         
+
+        <div class="mt-[40px] flex flex-col items-center">
+            
+            <a @click="mobileNavOpen = false" class="text-themeBrown navigationItem text-center pb-[30px]"
+                href="https://outsidelands.shop.musictoday.com/">Merch</a>
+            <a @click="mobileNavOpen = false" class="text-themeBrown navigationItem text-center pb-[30px]"
+                href="../info.html">Info</a>
+            <a @click="mobileNavOpen = false" class="text-themeBrown navigationItem text-center pb-[30px]"
+                href="../news.html">News</a>
+            <a @click="mobileNavOpen = false" class="text-themeBrown navigationItem text-center pb-[30px]"
+                href="../get-involved.html">Get Involved</a>
+        </div>
+    </div>
+</div>
+    <div class="">
+
+
+
+<div class="w-full"><div
+    class="flex flex-row items-center justify-center relative overflow-hidden w-full h-[469px] max-h-screen md:h-[469px] lg:h-[469px]">
+    <img src="../img/containers/assets/osl-tunnel3-greg-mike-1657118932.jpeg/2e648179f987ec5fcbda7b4e851953df.jpeg" alt=""
+        class="absolute object-cover object-center min-h-full min-w-full z-[-1]" />
+
+    
+</div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="w-full"><div class="w-full px-7 py-7 bg-themeBlue md:py-12">
+    <div class="max-w-[1230px] mx-auto">
+        
+        
+        
+<div class="flex flex-row items-center tabletBold text-[16px] text-themeCream">
+    <a href="../experiences.html" class="underline">Experiences</a>
+    <span class="px-1">></span>
+    <span>  Outsider Art  </span>
+    <span class="px-1">></span>
+    <span>Outsider Art</span>
+</div>
+
+        
+        
+
+        <div class="flex flex-col pt-3 md:pt-5 md:flex-row md:items-center">
+            
+            <h1 class="textBorder text-themeCream">Outsider Art</h1>
+        </div>
+    </div>
+</div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="w-full"><div class="bg-themeCream px-7 pt-5 pb-6 md:pt-32 md:pb-32">
+    <div class="relative max-w-[1180px] m-auto flex flex-col-reverse lg:flex-row lg:justify-between lg:items-center">
+
+
+        
+        <div class="pt-5 w-full lg:max-w-[450px] lg:mr-10 lg:pt-0">
+    <h3 class="text-themeOrange textBorder pb-6 text-[22px] lg:text-[38px]">
+        About
+    </h3>
+
+    <div class="text-themeBrown">
+        
+        
+        <div
+            class="bard-content w-full max-w-none prose prose-p:text-themeBrown prose-strong:text-themeBrown prose-a:text-themeBrown prose-p:text-[16px] prose-p:tabletRegular">
+            
+            
+            <p><a target="_blank" href="https://www.monsterenergy.com/">Monster Energy</a> is bringing the hottest graffiti artists to Outside Lands 2022! Check out <strong>HIERO</strong>,<strong> JEKS ONE</strong>, and <strong>RISK</strong> as they create murals live at the festival! Don&#039;t miss the insane creations by balloon artist <strong>Balloonski</strong> and live performances by our world class break dance team!</p><p>Presented by</p>
+            
+            
+            
+            
+            
+            
+            <div class="max-w-[200px]">
+                <img src="../assets/sponsor_logos/monster.png" alt="" class="w-full mb-4" />
+            </div>
+            
+            
+            
+            
+            <p></p>
+            
+            
+            
+        </div>
+        
+    </div>
+
+    
+</div>
+        
+
+        
+        <div class="relative">
+             <img src="../img/containers/assets/osl22-x-monster---16-by-9---1920x1080---a-conrad.jpg/5b501831c62fc92f190e2044fb11da97.jpg" alt="" class="w-full lg:max-w-[530px]" /> 
+        </div>
+        
+    </div>
+</div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="w-full"><div
+    class="relative bg-themeBlue px-7 pt-10 pb-20 md:pt-24  md:pb-56"
+>
+    <div class="max-w-[1010px] mx-auto relative">
+        
+        <img
+            src="../assets/experience_icons/paint-can-2.svg"
+            alt=""
+            class="hidden lg:block absolute w-[200px] h-[200px] top-[-50px] left-[-220px]"
+        />
+         
+        <h2
+            class="w-full text-center text-themeLightOrange textBorder pb-7 md:pb-16"
+        >
+            ARTISTS
+        </h2>
+
+        <div class="flex flex-col"> <div class="bg-themeCream border border-themeBrown flex flex-col md:flex-row md:px-12 md:py-12 md:justify-start mb-12">
+    
+    <div class="overflow-hidden relative w-full h-[225px] md:w-[385px] md:h-[250px] md:mr-16">
+        <img src="../img/containers/assets/hiero_bio_.jpeg.jpg/ed44f7cd52ee1a75cfa377b0ab2ef286.jpg" alt="" class="absolute min-h-[101%] min-w-[101%] max-h-[101%] max-w-none
+        object-cover object-center md:max-w-[101%]" />
+    </div>
+
+    <div class="flex flex-col md:max-w-[408px] px-4 pt-4 pb-9 md:p-0 md:ml-5">
+        <h3 class="text-themeBrown pb-4 md:pb-9">Hiero Veiga</h3>
+
+        
+        <p class="text-themeBrown tabletRegular"><i>LIVE PAINTING SUNDAY, 8/7</i>
+<br><br>
+“I am obsessed with the practice of my craft.” - Hiero Veiga, or Hiero, grew up in the small boxing town of Brockton, MA and has been spray painting since he was 12 years old. With over 21 years of experience, Hiero has evolved from writing graffiti to curating hyper-realistic pieces ranging from portraits, natural scenery, and psychedelic art.Hiero’s unique perspective and experience of light and color is reflected in his distinctive compositions. His current personal work style involves abstract backgrounds and kaleidoscopic designs with Groucho glasses, chattering teeth, and rubber ducks.Hiero has participated in countless mural festivals and collaborated with numerous artists in his community. His most prominent works were done in participation with Pow Wow! Mural Festivals, including a mural displayed in the Bishop Museum in Honolulu, Hawaii.Hiero is based in Florida, but you can find his work in the streets, businesses, and galleries across the United States, Jamaica, and Canada.</p>
+          
+
+        
+        <a href="https://www.instagram.com/hieroveiga/?hl=en" target="_blank">
+            <div class="max-w-max wiggle-link text-themeOrange tabletBold uppercase pt-4 pb-2">
+                LEARN MORE
+            </div>
+        </a>
+
+        
+          
+    </div>
+    
+</div>  <div class="bg-themeCream border border-themeBrown flex flex-col md:flex-row md:px-12 md:py-12 md:justify-start mb-12">
+    
+    <div class="overflow-hidden relative w-full h-[225px] md:w-[385px] md:h-[250px] md:mr-16">
+        <img src="../img/containers/assets/jeks.jpg/1b5e55e2501b0dec5a851a266578de64.jpg" alt="" class="absolute min-h-[101%] min-w-[101%] max-h-[101%] max-w-none
+        object-cover object-center md:max-w-[101%]" />
+    </div>
+
+    <div class="flex flex-col md:max-w-[408px] px-4 pt-4 pb-9 md:p-0 md:ml-5">
+        <h3 class="text-themeBrown pb-4 md:pb-9">JEKS ONE</h3>
+
+        
+        <p class="text-themeBrown tabletRegular"><i>LIVE PAINTING FRIDAY, 8/5</i>
+<br><br>
+Graffiti/Mural artist JEKS is a pioneering member of North Carolina’s burgeoning street-art scene. Starting as a graffiti artist in the mid 90’s, JEKS’ love for the aerosol medium has blossomed into a self-taught mastery of the spray can which few artists possess. Over the past 5 years, he has made a name for himself globally with his jaw-dropping, hyper-realistic, large format murals. An accomplished portraitist, JEKS’ portraits of artists and pop culture icons have become beloved cultural landmarks in the cities where they are installed.</p>
+          
+
+        
+        <a href="https://www.instagram.com/jeks_nc/?hl=en" target="_blank">
+            <div class="max-w-max wiggle-link text-themeOrange tabletBold uppercase pt-4 pb-2">
+                LEARN MORE
+            </div>
+        </a>
+
+        
+          
+    </div>
+    
+</div>  <div class="bg-themeCream border border-themeBrown flex flex-col md:flex-row md:px-12 md:py-12 md:justify-start mb-12">
+    
+    <div class="overflow-hidden relative w-full h-[225px] md:w-[385px] md:h-[250px] md:mr-16">
+        <img src="../img/containers/assets/risk_2021_profileimages_losangeles_ca_112.jpg/c58d6acc33beb03113c1e9ada4ce3502.jpg" alt="" class="absolute min-h-[101%] min-w-[101%] max-h-[101%] max-w-none
+        object-cover object-center md:max-w-[101%]" />
+    </div>
+
+    <div class="flex flex-col md:max-w-[408px] px-4 pt-4 pb-9 md:p-0 md:ml-5">
+        <h3 class="text-themeBrown pb-4 md:pb-9">RISK</h3>
+
+        
+        <p class="text-themeBrown tabletRegular"><i>LIVE PAINTING SATURDAY, 8/6</i>
+<br><br>
+Kelly Graval, the multi-talented Fine Artist, Illustrator, and Graffiti artist known as RISK, has been synonymous with the Los Angeles art community for decades. With a career spanning 30 years, RISK has solidified his place in the history books as a world-renowned graffiti legend. He has come a long way since he pioneered the painting of freeway overpasses, signs and billboards, dubbed “heavens.” Although RISK loves aerosol art, he sees it as merely just one genre in his life’s work. From his days as a student at the USC School of Fine Arts to Gallery and museum showings around the world; RISK has transformed from a street artist to a rising star in the contemporary art world.</p>
+          
+
+        
+        <a href="https://www.instagram.com/riskrock/?hl=en" target="_blank">
+            <div class="max-w-max wiggle-link text-themeOrange tabletBold uppercase pt-4 pb-2">
+                LEARN MORE
+            </div>
+        </a>
+
+        
+          
+    </div>
+    
+</div>  <div class="bg-themeCream border border-themeBrown flex flex-col md:flex-row md:px-12 md:py-12 md:justify-start mb-12">
+    
+    <div class="overflow-hidden relative w-full h-[225px] md:w-[385px] md:h-[250px] md:mr-16">
+        <img src="../img/containers/assets/balloonski-bio-pic.jpg/c16cf16c13f46fc94efc2b9e86b97586.jpg" alt="" class="absolute min-h-[101%] min-w-[101%] max-h-[101%] max-w-none
+        object-cover object-center md:max-w-[101%]" />
+    </div>
+
+    <div class="flex flex-col md:max-w-[408px] px-4 pt-4 pb-9 md:p-0 md:ml-5">
+        <h3 class="text-themeBrown pb-4 md:pb-9">Balloonski</h3>
+
+        
+        <p class="text-themeBrown tabletRegular"><i>CREATING ON SATURDAY, 8/6</i>
+<br><br>
+Balloonski grew up in Florida as a punk rocker, so he fits right in with the rest of the Monster Squad! Off rip the aim of Balloonski has been to utilize the balloon arts to think outside the box with forward intentions. Constantly riding waves of the latest trends mixed with retro nostalgia, Balloonski creates a deep reaction for your enjoyment to spark a real conversation about the world around you. Traveling to create is the passion, helping grown adults find their inner child for just a minute is the purpose.
+<br>
+Balloonski's humble beginnings had him making balloon designs in restaurants and street performing to get his Art to the people. After 11 years and a move across the country to Los Angeles, he has created Balloon art for countless events. "Blowin up" for ILLfest and Coachella stages, plus multiple appearances at ArtBasel and PowWow/WALLS Art Festivals from Worcester to LBC, then onward to Korea and Japan. So keep your eyes open and your cameras on this festival season, you'll probably catch some Balloonski Art as you watch your favorite monster artist performing.</p>
+          
+
+        
+        <a href="https://www.instagram.com/balloonski/?hl=en" target="_blank">
+            <div class="max-w-max wiggle-link text-themeOrange tabletBold uppercase pt-4 pb-2">
+                LEARN MORE
+            </div>
+        </a>
+
+        
+          
+    </div>
+    
+</div>  <div class="bg-themeCream border border-themeBrown flex flex-col md:flex-row md:px-12 md:py-12 md:justify-start mb-12">
+    
+    <div class="overflow-hidden relative w-full h-[225px] md:w-[385px] md:h-[250px] md:mr-16">
+        <img src="../img/containers/assets/rachel-wolfe-goldsmith.png/b08065ab9b78a9978e3cb8f31a247f39.png" alt="" class="absolute min-h-[101%] min-w-[101%] max-h-[101%] max-w-none
+        object-cover object-center md:max-w-[101%]" />
+    </div>
+
+    <div class="flex flex-col md:max-w-[408px] px-4 pt-4 pb-9 md:p-0 md:ml-5">
+        <h3 class="text-themeBrown pb-4 md:pb-9">Rachel Wolfe-Goldsmith</h3>
+
+        
+        <p class="text-themeBrown tabletRegular"><i>LIVE PAINTING SATURDAY, 8/6</i>
+<br><br>
+Rachel Wolfe-Goldsmith is a Muralist, Painter, and Creative Director based out of Oakland California. Adopted and of Nigerian, Jewish, and European heritage her perspective is diverse and unique. She is interested in shaping culture through large scale imagery. Her compositions are intuitive and often seeks to reflect the culture, moments, and dreams that shape her communities.  Her mural practice centers on creating empowering representations of  BIPOC individuals while creating learning and economic opportunity for emerging artists. She works between the street and studio, using mediums from oil paint to aerosol. She has produced gallery work and murals across the  US, Costa Rica, and Australia.</p>
+          
+
+        
+        <a href="https://www.instagram.com/wolfe_.pack/" target="_blank">
+            <div class="max-w-max wiggle-link text-themeOrange tabletBold uppercase pt-4 pb-2">
+                LEARN MORE
+            </div>
+        </a>
+
+        
+          
+    </div>
+    
+</div>  <div class="bg-themeCream border border-themeBrown flex flex-col md:flex-row md:px-12 md:py-12 md:justify-start mb-12">
+    
+    <div class="overflow-hidden relative w-full h-[225px] md:w-[385px] md:h-[250px] md:mr-16">
+        <img src="../img/containers/assets/sworne.jpg/a244ceb4e8d2c3992db5eefa96f723c5.jpg" alt="" class="absolute min-h-[101%] min-w-[101%] max-h-[101%] max-w-none
+        object-cover object-center md:max-w-[101%]" />
+    </div>
+
+    <div class="flex flex-col md:max-w-[408px] px-4 pt-4 pb-9 md:p-0 md:ml-5">
+        <h3 class="text-themeBrown pb-4 md:pb-9">Sworne One LORDS</h3>
+
+        
+        <p class="text-themeBrown tabletRegular"><i>LIVE PAINTING FRIDAY, 8/5</i>
+<br><br>
+Sworne is an entrepreneur! Growing up in Santa Rosa Painting murals & growing medicinal cannabis with his mother in the late 90’s he would eventually become the buyer of Barbary Coast Collective in SF then go on to judge for the Emerald Cup. Sworne’s artistic abilities has led him to paint murals for numerous festivals such as Burning Man, Symbiosis, Raindance, emissions, LIB, Dirty Bird Campout & OutsideLands. Recently Sworne & friends started the first graffiti projection mapping company called “Savor the Vibe”. Sworne has now invested in a sustainable vintage clothing shop on Haight where he sells rare vintage clothing. Sworne also screen prints his own clothing under the Alias @_Knight2000 & works with legendary artist Michael Rios where he manages the studio. The studio has done collaborations with Supreme, Market, Red Hot Chili Peppers & many more!</p>
+          
+
+        
+        <a href="https://www.instagram.com/_knight2000/" target="_blank">
+            <div class="max-w-max wiggle-link text-themeOrange tabletBold uppercase pt-4 pb-2">
+                LEARN MORE
+            </div>
+        </a>
+
+        
+          
+    </div>
+    
+</div>  <div class="bg-themeCream border border-themeBrown flex flex-col md:flex-row md:px-12 md:py-12 md:justify-start mb-12">
+    
+    <div class="overflow-hidden relative w-full h-[225px] md:w-[385px] md:h-[250px] md:mr-16">
+        <img src="../img/containers/assets/gus-cutty-&amp;-kathryn-crawford-1657056658.jpg/f735c446d9df20bfe7606619028f3fce.jpg" alt="" class="absolute min-h-[101%] min-w-[101%] max-h-[101%] max-w-none
+        object-cover object-center md:max-w-[101%]" />
+    </div>
+
+    <div class="flex flex-col md:max-w-[408px] px-4 pt-4 pb-9 md:p-0 md:ml-5">
+        <h3 class="text-themeBrown pb-4 md:pb-9">Gus Cutty + Kathryn Crawford</h3>
+
+        
+        <p class="text-themeBrown tabletRegular"><i>LIVE PAINTING SATURDAY, 8/6</i>
+<br><br>
+Gus is a designer and muralist who cut his teeth painting rooftops and walls in the south before moving to San Francisco to expand his perspective in 2006. Best known for his large scale spray painted portraits that have sprouted up around Asheville since his return to the area at the beginning of 2012, Gus has devoted himself to the evolution of portrait and the craft of free hand aerosol work.
+<br><br>
+Kathryn grew up in Connecticut, where she spent her childhood enforcing her love and passion for art, from raiding her fathers art supplies to taking advanced placement high school classes. In college, Kathryn traveled to Florence, Italy to study art at the Florence University of the Arts. She graduated with a BFA in Graphic Design from the University of Tampa in 2011. Since then, Kathryn has been a working studio artist and muralist in Asheville, North Carolina, and exhibiting her work nationally.</p>
+          
+
+        
+        <a href="https://www.instagram.com/guscutty/" target="_blank">
+            <div class="max-w-max wiggle-link text-themeOrange tabletBold uppercase pt-4 pb-2">
+                LEARN MORE
+            </div>
+        </a>
+
+        
+          
+    </div>
+    
+</div>  <div class="bg-themeCream border border-themeBrown flex flex-col md:flex-row md:px-12 md:py-12 md:justify-start mb-12">
+    
+    <div class="overflow-hidden relative w-full h-[225px] md:w-[385px] md:h-[250px] md:mr-16">
+        <img src="../img/containers/assets/timber-84.png/c3a7f632788a0afa5676a93a2ce44735.png" alt="" class="absolute min-h-[101%] min-w-[101%] max-h-[101%] max-w-none
+        object-cover object-center md:max-w-[101%]" />
+    </div>
+
+    <div class="flex flex-col md:max-w-[408px] px-4 pt-4 pb-9 md:p-0 md:ml-5">
+        <h3 class="text-themeBrown pb-4 md:pb-9">Timber 84</h3>
+
+        
+        <p class="text-themeBrown tabletRegular"><i>LIVE PAINTING FRIDAY, 8/5</i>
+<br><br>
+Timber 84 hails from the central valley of California. He possesses the classic hip hop graffiti style and is keeping it alive for OG’s and those just coming up. Big bold characters, always flexing and always into some level of mischief. He is a master of color and movement, who  covers giant walls with crisp designs and highly stylized BBoys and BGirls.</p>
+          
+
+        
+        <a href="https://www.instagram.com/timber_84/" target="_blank">
+            <div class="max-w-max wiggle-link text-themeOrange tabletBold uppercase pt-4 pb-2">
+                LEARN MORE
+            </div>
+        </a>
+
+        
+          
+    </div>
+    
+</div>  <div class="bg-themeCream border border-themeBrown flex flex-col md:flex-row md:px-12 md:py-12 md:justify-start mb-12">
+    
+    <div class="overflow-hidden relative w-full h-[225px] md:w-[385px] md:h-[250px] md:mr-16">
+        <img src="../img/containers/assets/greg-mike-osp-crop2.jpeg/0bc0e4770474fbfdaa5acde1b276298f.jpeg" alt="" class="absolute min-h-[101%] min-w-[101%] max-h-[101%] max-w-none
+        object-cover object-center md:max-w-[101%]" />
+    </div>
+
+    <div class="flex flex-col md:max-w-[408px] px-4 pt-4 pb-9 md:p-0 md:ml-5">
+        <h3 class="text-themeBrown pb-4 md:pb-9">Greg Mike</h3>
+
+        
+        <p class="text-themeBrown tabletRegular"><i>LIVE PAINTING SUNDAY, 8/7</i>
+<br><br>
+Currently based in Atlanta, Greg Mike is the founder and creative director of ABV AGENCY + GALLERY, a multi-platform creative studio specializing in graphic design, street art, mural installations, art direction and more. A hub for innovators, ABV also functions as a contemporary gallery space exhibiting over 350+ artists from around the world.</p>
+          
+
+        
+        <a href="https://www.instagram.com/gregmike/" target="_blank">
+            <div class="max-w-max wiggle-link text-themeOrange tabletBold uppercase pt-4 pb-2">
+                LEARN MORE
+            </div>
+        </a>
+
+        
+          
+    </div>
+    
+</div>  <div class="bg-themeCream border border-themeBrown flex flex-col md:flex-row md:px-12 md:py-12 md:justify-start mb-12">
+    
+    <div class="overflow-hidden relative w-full h-[225px] md:w-[385px] md:h-[250px] md:mr-16">
+        <img src="../img/containers/assets/ursula-young.png/333f6a0031b085c50d7854af22178996.png" alt="" class="absolute min-h-[101%] min-w-[101%] max-h-[101%] max-w-none
+        object-cover object-center md:max-w-[101%]" />
+    </div>
+
+    <div class="flex flex-col md:max-w-[408px] px-4 pt-4 pb-9 md:p-0 md:ml-5">
+        <h3 class="text-themeBrown pb-4 md:pb-9">Ursula X Young</h3>
+
+        
+        <p class="text-themeBrown tabletRegular"><i>LIVE PAINTING SUNDAY, 8/7</i>
+<br><br>
+Over the past twenty five years illustrator, painter and designer Ursula Xanthe Young has become known for her unique flowery urban fairytale illustrations. Graduate of Parsons School of Design (Illustration, BFA, New York 1996) Ursula exhibits frequently in the Bay Area and has sold paintings in New York, London, Singapore, Manila, Hong Kong and all across the U.S. She shows most frequently with Luna Rienne Gallery in San Francisco.</p>
+          
+
+        
+        <a href="https://www.instagram.com/ursulaxyoung/" target="_blank">
+            <div class="max-w-max wiggle-link text-themeOrange tabletBold uppercase pt-4 pb-2">
+                LEARN MORE
+            </div>
+        </a>
+
+        
+          
+    </div>
+    
+</div>  <div class="bg-themeCream border border-themeBrown flex flex-col md:flex-row md:px-12 md:py-12 md:justify-start mb-12">
+    
+    <div class="overflow-hidden relative w-full h-[225px] md:w-[385px] md:h-[250px] md:mr-16">
+        <img src="../img/containers/assets/drane_tunnel.JPG/8ef551df441e213948ce64ba252fa25b.JPG" alt="" class="absolute min-h-[101%] min-w-[101%] max-h-[101%] max-w-none
+        object-cover object-center md:max-w-[101%]" />
+    </div>
+
+    <div class="flex flex-col md:max-w-[408px] px-4 pt-4 pb-9 md:p-0 md:ml-5">
+        <h3 class="text-themeBrown pb-4 md:pb-9">Drane</h3>
+
+        
+        <p class="text-themeBrown tabletRegular">Drane represents the Central Valley to the fullest. With murals and artworks all over Fresno and Modesto. His range knows no limit, and he will be creating original works throughtout the tunnels and on Buddies.</p>
+          
+
+        
+        <a href="https://www.instagram.com/draneone_art/?hl=en" target="_blank">
+            <div class="max-w-max wiggle-link text-themeOrange tabletBold uppercase pt-4 pb-2">
+                LEARN MORE
+            </div>
+        </a>
+
+        
+          
+    </div>
+    
+</div>  <div class="bg-themeCream border border-themeBrown flex flex-col md:flex-row md:px-12 md:py-12 md:justify-start mb-12">
+    
+    <div class="overflow-hidden relative w-full h-[225px] md:w-[385px] md:h-[250px] md:mr-16">
+        <img src="../img/containers/assets/messenger_tunnel2.JPG/66c286e52c013824449bb7557bb21187.JPG" alt="" class="absolute min-h-[101%] min-w-[101%] max-h-[101%] max-w-none
+        object-cover object-center md:max-w-[101%]" />
+    </div>
+
+    <div class="flex flex-col md:max-w-[408px] px-4 pt-4 pb-9 md:p-0 md:ml-5">
+        <h3 class="text-themeBrown pb-4 md:pb-9">Mesngr</h3>
+
+        
+        <p class="text-themeBrown tabletRegular">San Jose legend, long time member of the LORDS Crew. Mesngr has style galore and brings it to life in characters and lettering across the Bay Area.</p>
+          
+
+        
+        <a href="https://www.instagram.com/mesngr86/?hl=en" target="_blank">
+            <div class="max-w-max wiggle-link text-themeOrange tabletBold uppercase pt-4 pb-2">
+                LEARN MORE
+            </div>
+        </a>
+
+        
+          
+    </div>
+    
+</div>  <div class="bg-themeCream border border-themeBrown flex flex-col md:flex-row md:px-12 md:py-12 md:justify-start mb-12">
+    
+    <div class="overflow-hidden relative w-full h-[225px] md:w-[385px] md:h-[250px] md:mr-16">
+        <img src="../img/containers/assets/berkvisual.jpg/970c5b9acfacf33204a198fc5e545a2d.jpg" alt="" class="absolute min-h-[101%] min-w-[101%] max-h-[101%] max-w-none
+        object-cover object-center md:max-w-[101%]" />
+    </div>
+
+    <div class="flex flex-col md:max-w-[408px] px-4 pt-4 pb-9 md:p-0 md:ml-5">
+        <h3 class="text-themeBrown pb-4 md:pb-9">Berk Visual</h3>
+
+        
+        <p class="text-themeBrown tabletRegular">Berk Visual will be drawing buddies Outside Lands weekend.</p>
+          
+
+        
+        <a href="https://www.instagram.com/berkvisual/" target="_blank">
+            <div class="max-w-max wiggle-link text-themeOrange tabletBold uppercase pt-4 pb-2">
+                LEARN MORE
+            </div>
+        </a>
+
+        
+          
+    </div>
+    
+</div> </div>
+
+         
+        <img
+            src="../assets/experience_icons/planet.svg"
+            alt=""
+            class="hidden lg:block absolute w-[200px] h-[200px] bottom-[-150px] right-[-220px]"
+        />
+        
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<div class="w-full"><div class="bg-themeCream px-7 pt-14 pb-20 md:pt-28 md:pb-44">
+    <div class="max-w-[1230px] mx-auto">
+        
+
+        <div class="relative">
+            
+            <div class="grid grid-cols-1 gap-y-6 md:grid-cols-2 md:gap-5">
+                 <img src="../img/containers/assets/balloon-2.jpg/24c7ad134f72035393188100b3788731.jpg" alt="" />  <img src="../img/containers/assets/meme-7.jpg/ac000f97de840843fb49faa34e97d1fd.jpg" alt="" />  <img src="../img/containers/assets/risk-1.jpg/0c4de1782cc59f3c07f498762f3ed626.jpg" alt="" />  <img src="../img/containers/assets/drane_tunnel2.JPG/9d93be3ee35bfde8c07d4e3264a591f0.JPG" alt="" /> 
+            </div>
+
+            
+        </div>
+    </div>
+</div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+<div>
+    
+    <div class="w-full pt-10"></div>
+    
+</div></div>
+    <div class="w-full"><div class="bg-themeDarkBrown relative px-5 pt-[75px] pb-5 lg:px-[65px] lg:pt-[95px]">
+    <a href="outsider-art.html#top">
+        <div
+            class="flex z-[100] items-center justify-center absolute w-[66px] h-[66px] rounded-full bg-themeBrown border-2 border-cream top-[-33px] right-[20px] lg:right-[53px]">
+            <img class="w-[24px]" src="../assets/static/footerButtonArrow.svg" alt="" />
+        </div>
+    </a>
+    <div class="flex flex-col md:flex-row md:justify-between md:items-center">
+        <img class="w-full md:w-[320px]" src="../assets/outsidelandsTextLogo.svg" alt="" />
+        <div class="grid grid-cols-6 max-w-max pt-6 md:pt-0">
+            
+            <a rel="nofollow" href="https://www.tiktok.com/@sfoutsidelands" target="_blank" class="mr-[15px] md:mr-[19px]">
+                <img class="w-[40px] md:w-[50px]" src="../assets/tikTok.svg" alt="tik tok" />
+            </a>
+            
+            <a rel="nofollow" href="https://www.facebook.com/SFOutsideLands/" target="_blank" class="mr-[15px] md:mr-[19px]">
+                <img class="w-[40px] md:w-[50px]" src="../assets/facebook.svg" alt="facebook" />
+            </a>
+            
+            <a rel="nofollow" href="https://www.instagram.com/outsidelands/?hl=en" target="_blank" class="mr-[15px] md:mr-[19px]">
+                <img class="w-[40px] md:w-[50px]" src="../assets/instagram.svg" alt="Instagram" />
+            </a>
+            
+            <a rel="nofollow" href="https://twitter.com/sfoutsidelands" target="_blank" class="mr-[15px] md:mr-[19px]">
+                <img class="w-[40px] md:w-[50px]" src="../assets/twitter.svg" alt="twitter" />
+            </a>
+            
+            <a rel="nofollow" href="https://www.youtube.com/user/OutsideLands/videos?app=desktop&view=0&sort=dd&shelf_id=0" target="_blank" class="mr-[15px] md:mr-[19px]">
+                <img class="w-[40px] md:w-[50px]" src="../assets/youtube.svg" alt="youtube" />
+            </a>
+            
+            <a rel="nofollow" href="https://www.twitch.tv/sfoutsidelands" target="_blank" class="mr-[15px] md:mr-[19px]">
+                <img class="w-[40px] md:w-[50px]" src="../assets/twitch.svg" alt="twitch" />
+            </a>
+            
+        </div>
+    </div>
+
+    <div
+        class="grid grid-cols-2 py-[53px] md:pt-[46px] md:pb-[40px] lg:pt-[56px] max-w-max lg:pb-[38px] md:grid-cols-3 lg:grid-cols-4">
+         
+        <a rel="nofollow" target="" href="../info.html"
+            class="text-themeCream text-[16px] leading-[145%] tabletBold mb-[23px] last:mb-0 mr-4 md:mr-10">Info</a>
+         
+        <a rel="nofollow" target="" href="../news.html"
+            class="text-themeCream text-[16px] leading-[145%] tabletBold mb-[23px] last:mb-0 mr-4 md:mr-10">News</a>
+         
+        <a rel="nofollow" target="" href="../contact.html"
+            class="text-themeCream text-[16px] leading-[145%] tabletBold mb-[23px] last:mb-0 mr-4 md:mr-10">Contact</a>
+         
+        <a rel="nofollow" target="" href="../premium-experiences/premium-experiences.html"
+            class="text-themeCream text-[16px] leading-[145%] tabletBold mb-[23px] last:mb-0 mr-4 md:mr-10">Premium Experiences</a>
+         
+        <a rel="nofollow" target="" href="../accessibility.html"
+            class="text-themeCream text-[16px] leading-[145%] tabletBold mb-[23px] last:mb-0 mr-4 md:mr-10">Accessibility</a>
+         
+        <a rel="nofollow" target="" href="../lineup.html"
+            class="text-themeCream text-[16px] leading-[145%] tabletBold mb-[23px] last:mb-0 mr-4 md:mr-10">Lineup</a>
+         
+        <a rel="nofollow" target="_blank" href="https://outsidelands.shop.musictoday.com/"
+            class="text-themeCream text-[16px] leading-[145%] tabletBold mb-[23px] last:mb-0 max-w-max mr-4 md:mr-10">Merch</a>
+        
+         
+        <a rel="nofollow" target="" href="../press.html"
+            class="text-themeCream text-[16px] leading-[145%] tabletBold mb-[23px] last:mb-0 mr-4 md:mr-10">Press</a>
+         
+        <a rel="nofollow" target="" href="../311.html"
+            class="text-themeCream text-[16px] leading-[145%] tabletBold mb-[23px] last:mb-0 mr-4 md:mr-10">Neighborhood 311</a>
+         
+        <a rel="nofollow" target="" href="../park-attractions.html"
+            class="text-themeCream text-[16px] leading-[145%] tabletBold mb-[23px] last:mb-0 mr-4 md:mr-10">Park Attractions</a>
+         
+        <a rel="nofollow" target="" href="../partners.html"
+            class="text-themeCream text-[16px] leading-[145%] tabletBold mb-[23px] last:mb-0 mr-4 md:mr-10">Partners</a>
+         
+        <a rel="nofollow" target="" href="../neighborhood.html"
+            class="text-themeCream text-[16px] leading-[145%] tabletBold mb-[23px] last:mb-0 mr-4 md:mr-10">Neighborhoods</a>
+         
+        <a rel="nofollow" target="" href="../experiences.html"
+            class="text-themeCream text-[16px] leading-[145%] tabletBold mb-[23px] last:mb-0 mr-4 md:mr-10">Experiences</a>
+         
+        <a rel="nofollow" target="" href="../schedule.html"
+            class="text-themeCream text-[16px] leading-[145%] tabletBold mb-[23px] last:mb-0 mr-4 md:mr-10">Schedule</a>
+        
+    </div>
+    <div class="w-full flex flex-col md:flex-row md:justify-between">
+        
+        <a rel="nofollow" href="../terms.html"
+            class="underline text-themeCream text-[16px] leading-[145%] tabletRegular pb-[23px] last:mb-0">Terms & Conditions</a>
+        
+        <a rel="nofollow" href="../privacy.html"
+            class="underline text-themeCream text-[16px] leading-[145%] tabletRegular pb-[23px] last:mb-0">Privacy Policy</a>
+        
+    </div>
+    <div class="border-t border-themeDarkYellow pt-[20px]">
+        <div class="flex flex-col-reverse md:flex-row md:justify-between md:items-center">
+            <div class="text-themeDarkYellow text-[12px] tabletBold pt-5 md:pt-0">
+                © 2022 Outside Lands. All rights reserved
+            </div>
+            <div class="flex flex-row items-center justify-between">
+                
+                <a href="https://apeconcerts.com/" target="_blank">
+                    <img alt="Another Planet" class="min-h-[16px] lg:min-h-[27px] md:min-w-[80px] lg:mx-5" src="../assets/sponsor_logos/anotherPlanet.svg" />
+                </a>
+                
+                <a href="https://superf.ly/" target="_blank">
+                    <img alt="Superfly" class="min-h-[16px] lg:min-h-[27px] md:min-w-[80px] lg:mx-5" src="../assets/sponsor_logos/superfly.svg" />
+                </a>
+                
+                <a href="https://starrhillpresents.com/" target="_blank">
+                    <img alt="Star Hill" class="min-h-[16px] lg:min-h-[27px] md:min-w-[80px] lg:mx-5" src="../assets/sponsor_logos/starrHill.svg" />
+                </a>
+                
+            </div>
+        </div>
+    </div>
+</div></div>
+    <script src="../js/site.js%3Fid=bad47918c1b630f4271b5517cb957385"></script>
+    <script src="../js/nav.js%3Fid=d41d8cd98f00b204e9800998ecf8427e"></script>
+</body>
+
+</html>
